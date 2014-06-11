@@ -1,0 +1,10 @@
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\bin\Debug\Local Alignemnt.exe
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\bin\Debug\Local Alignemnt.pdb
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\bin\Debug\Local Alignemnt.xml
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\obj\Debug\ResolveAssemblyReference.cache
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\obj\Debug\WindowsApplication1.LocalAlignment.resources
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\obj\Debug\WindowsApplication1.Resources.resources
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\obj\Debug\Local Alignemnt.vbproj.GenerateResource.Cache
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\obj\Debug\Local Alignemnt.exe
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\obj\Debug\Local Alignemnt.xml
+F:\Files\School\Spring 10\CS441\Homework\Homework2\Local Alignemnt\obj\Debug\Local Alignemnt.pdb

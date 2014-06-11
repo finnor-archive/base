@@ -1,0 +1,10 @@
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\bin\Debug\Protein Alignment.exe
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\bin\Debug\Protein Alignment.pdb
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\bin\Debug\Protein Alignment.xml
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\obj\Debug\ResolveAssemblyReference.cache
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\obj\Debug\Protein_Alignment.Resources.resources
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\obj\Debug\Protein_Alignment.proteinAlignment.resources
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\obj\Debug\Protein Alignment.vbproj.GenerateResource.Cache
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\obj\Debug\Protein Alignment.exe
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\obj\Debug\Protein Alignment.xml
+F:\Files\School\Spring 10\CS441\Homework\Assignment 3\Protein Alignment\Protein Alignment\obj\Debug\Protein Alignment.pdb

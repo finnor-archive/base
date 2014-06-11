@@ -1,0 +1,10 @@
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\obj\Debug\ResolveAssemblyReference.cache
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\obj\Debug\GlobalAlignment.GlobalAlignment.resources
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\obj\Debug\GlobalAlignment.Resources.resources
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\obj\Debug\GlobalAlignment.vbproj.GenerateResource.Cache
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\bin\Debug\GlobalAlignment.exe
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\bin\Debug\GlobalAlignment.pdb
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\bin\Debug\GlobalAlignment.xml
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\obj\Debug\GlobalAlignment.exe
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\obj\Debug\GlobalAlignment.xml
+F:\Files\School\Spring 10\CS441\Homework\Assignment 1\GlobalAlignment\GlobalAlignment\obj\Debug\GlobalAlignment.pdb

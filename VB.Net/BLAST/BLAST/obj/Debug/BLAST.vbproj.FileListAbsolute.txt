@@ -1,0 +1,10 @@
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\obj\Debug\ResolveAssemblyReference.cache
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\obj\Debug\BLAST.blast.resources
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\obj\Debug\BLAST.Resources.resources
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\obj\Debug\BLAST.vbproj.GenerateResource.Cache
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\bin\Debug\BLAST.exe
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\bin\Debug\BLAST.pdb
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\bin\Debug\BLAST.xml
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\obj\Debug\BLAST.exe
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\obj\Debug\BLAST.xml
+F:\Files\School\Spring 10\CS441\Homework\Assignment 4\BLAST\obj\Debug\BLAST.pdb
