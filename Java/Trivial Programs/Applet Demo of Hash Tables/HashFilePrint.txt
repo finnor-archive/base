@@ -1,0 +1,250 @@
+Position: 0	Word: lazying         Hash Value = 350028
+Position: 1	Word: tarwhine        Hash Value = 350026
+Position: 2	Word: inacquiescent   Hash Value = 2
+Position: 3	Word: discordant      Hash Value = 3
+Position: 4	Word: dermic          Hash Value = 4
+Position: 5	Word: disoccupy       Hash Value = 4
+Position: 6	Word: licentiate      Hash Value = 2
+Position: 7	Word: mattamore       Hash Value = 6
+Position: 8	Word: null
+Position: 9	Word: rigor           Hash Value = 350022
+Position: 10	Word: suborn          Hash Value = 350003
+Position: 11	Word: habituating     Hash Value = 11
+Position: 12	Word: reblend         Hash Value = 350025
+Position: 13	Word: kobold          Hash Value = 13
+Position: 14	Word: melburnian      Hash Value = 14
+Position: 15	Word: vervet          Hash Value = 6
+Position: 16	Word: gaurs           Hash Value = 16
+Position: 17	Word: null
+Position: 18	Word: replots         Hash Value = 2
+Position: 19	Word: null
+Position: 20	Word: dermis          Hash Value = 20
+Position: 21	Word: stugs           Hash Value = 5
+Position: 22	Word: southerner      Hash Value = 349987
+Position: 23	Word: paunchiness     Hash Value = 23
+Position: 24	Word: null
+Position: 25	Word: gushier         Hash Value = 25
+Position: 26	Word: finiking        Hash Value = 26
+Position: 27	Word: kaliophilite    Hash Value = 27
+Position: 28	Word: null
+Position: 29	Word: tetronic        Hash Value = 29
+Position: 30	Word: unpalled        Hash Value = 5
+Position: 31	Word: molybdomenite   Hash Value = 31
+Position: 32	Word: null
+Position: 33	Word: confabulating   Hash Value = 33
+Position: 34	Word: gillstoup       Hash Value = 34
+Position: 35	Word: seagoer         Hash Value = 349983
+Position: 36	Word: null
+Position: 37	Word: phonolite       Hash Value = 33
+Position: 38	Word: ruffable        Hash Value = 350018
+Position: 39	Word: null
+Position: 40	Word: null
+Position: 41	Word: leucobryaceae   Hash Value = 41
+Position: 42	Word: catching        Hash Value = 42
+Position: 43	Word: originator      Hash Value = 42
+Position: 44	Word: null
+Position: 45	Word: sporophytic     Hash Value = 45
+Position: 46	Word: null
+Position: 47	Word: toxicoid        Hash Value = 47
+Position: 48	Word: null
+Position: 49	Word: sultanate       Hash Value = 49
+Position: 50	Word: null
+Position: 51	Word: null
+Position: 52	Word: hotchpot        Hash Value = 52
+Position: 53	Word: gauss           Hash Value = 53
+Position: 54	Word: amoralises      Hash Value = 54
+Position: 55	Word: corpsmen        Hash Value = 55
+Position: 56	Word: habituation     Hash Value = 55
+Position: 57	Word: deportations    Hash Value = 57
+Position: 58	Word: whitherto       Hash Value = 22
+Position: 59	Word: unissuable      Hash Value = 55
+Position: 60	Word: hotline         Hash Value = 56
+Position: 61	Word: superhirudine   Hash Value = 52
+Position: 62	Word: unlavish        Hash Value = 61
+Position: 63	Word: disaffiliate    Hash Value = 63
+Position: 64	Word: null
+Position: 65	Word: null
+Position: 66	Word: null
+Position: 67	Word: latents         Hash Value = 67
+Position: 68	Word: checklist       Hash Value = 68
+Position: 69	Word: dewaters        Hash Value = 69
+Position: 70	Word: null
+Position: 71	Word: acarology       Hash Value = 71
+Position: 72	Word: misalignments   Hash Value = 72
+Position: 73	Word: null
+Position: 74	Word: doused          Hash Value = 74
+Position: 75	Word: pregnability    Hash Value = 74
+Position: 76	Word: optic           Hash Value = 76
+Position: 77	Word: confabulation   Hash Value = 77
+Position: 78	Word: alfresco        Hash Value = 78
+Position: 79	Word: octopean        Hash Value = 78
+Position: 80	Word: null
+Position: 81	Word: daltonian       Hash Value = 81
+Position: 82	Word: null
+Position: 83	Word: diaplex         Hash Value = 83
+Position: 84	Word: unravishing     Hash Value = 83
+Position: 85	Word: null
+Position: 86	Word: null
+Position: 87	Word: null
+Position: 88	Word: douser          Hash Value = 88
+Position: 89	Word: douses          Hash Value = 89
+Position: 90	Word: kobong          Hash Value = 90
+Position: 91	Word: expansibility   Hash Value = 91
+Position: 92	Word: tramman         Hash Value = 92
+Position: 93	Word: null
+Position: 94	Word: turkmenian      Hash Value = 90
+Position: 95	Word: unfurbished     Hash Value = 94
+Position: 96	Word: null
+Position: 97	Word: a               Hash Value = 97
+Position: 98	Word: illuminize      Hash Value = 98
+Position: 99	Word: argyrodite      Hash Value = 99
+Position: 100	Word: subletter       Hash Value = 99
+Position: 101	Word: null
+Position: 102	Word: protosilicon    Hash Value = 98
+Position: 103	Word: pyrroyl         Hash Value = 102
+Position: 104	Word: chaptering      Hash Value = 104
+Position: 105	Word: i               Hash Value = 105
+Position: 106	Word: kidding         Hash Value = 105
+Position: 107	Word: ferruling       Hash Value = 107
+Position: 108	Word: sphaeristerium  Hash Value = 104
+Position: 109	Word: rebundle        Hash Value = 105
+Position: 110	Word: poetry          Hash Value = 106
+Position: 111	Word: lucinacea       Hash Value = 111
+Position: 112	Word: null
+Position: 113	Word: inanities       Hash Value = 113
+Position: 114	Word: null
+Position: 115	Word: null
+Position: 116	Word: null
+Position: 117	Word: metrectopia     Hash Value = 117
+Position: 118	Word: saponification  Hash Value = 109
+Position: 119	Word: limbered        Hash Value = 119
+Position: 120	Word: metrectopic     Hash Value = 119
+Position: 121	Word: null
+Position: 122	Word: zamouse         Hash Value = 122
+Position: 123	Word: miscipher       Hash Value = 123
+Position: 124	Word: chronometric    Hash Value = 124
+Position: 125	Word: lipothymy       Hash Value = 124
+Position: 126	Word: null
+Position: 127	Word: paralytically   Hash Value = 123
+Position: 128	Word: null
+Position: 129	Word: null
+Position: 130	Word: null
+Position: 131	Word: null
+Position: 132	Word: unworried       Hash Value = 123
+Position: 133	Word: null
+Position: 134	Word: unstriated      Hash Value = 53
+Position: 135	Word: null
+Position: 136	Word: null
+Position: 137	Word: jutlandish      Hash Value = 137
+Position: 138	Word: palgat          Hash Value = 138
+Position: 139	Word: periodontics    Hash Value = 139
+Position: 140	Word: null
+Position: 141	Word: immethodically  Hash Value = 141
+Position: 142	Word: unwelcomed      Hash Value = 142
+Position: 143	Word: null
+Position: 144	Word: handsomeish     Hash Value = 144
+Position: 145	Word: null
+Position: 146	Word: tridecylic      Hash Value = 146
+Position: 147	Word: mesolimnion     Hash Value = 147
+Position: 148	Word: null
+Position: 149	Word: null
+Position: 150	Word: septenous       Hash Value = 349983
+Position: 151	Word: unomniscient    Hash Value = 151
+Position: 152	Word: cakebox         Hash Value = 152
+Position: 153	Word: climatography   Hash Value = 152
+Position: 154	Word: circumsphere    Hash Value = 154
+Position: 155	Word: unsanguinely    Hash Value = 151
+Position: 156	Word: tipuloidea      Hash Value = 152
+Position: 157	Word: almerian        Hash Value = 157
+Position: 158	Word: null
+Position: 159	Word: bottomless      Hash Value = 159
+Position: 160	Word: encomium        Hash Value = 160
+Position: 161	Word: hemotherapy     Hash Value = 161
+Position: 162	Word: heteromya       Hash Value = 153
+Position: 163	Word: inconsiderable  Hash Value = 159
+Position: 164	Word: serging         Hash Value = 160
+Position: 165	Word: anarcho         Hash Value = 165
+Position: 166	Word: coservant       Hash Value = 165
+Position: 167	Word: craquelure      Hash Value = 166
+Position: 168	Word: sympodia        Hash Value = 168
+Position: 169	Word: null
+Position: 170	Word: lugsails        Hash Value = 161
+Position: 171	Word: heatless        Hash Value = 171
+Position: 172	Word: heteromys       Hash Value = 171
+Position: 173	Word: protogelatose   Hash Value = 172
+Position: 174	Word: chirrup         Hash Value = 174
+Position: 175	Word: anarchy         Hash Value = 175
+Position: 176	Word: bedeafen        Hash Value = 176
+Position: 177	Word: null
+Position: 178	Word: endosome        Hash Value = 174
+Position: 179	Word: inconsiderably  Hash Value = 179
+Position: 180	Word: octopede        Hash Value = 180
+Position: 181	Word: inurning        Hash Value = 181
+Position: 182	Word: reflectible     Hash Value = 182
+Position: 183	Word: riparious       Hash Value = 179
+Position: 184	Word: preceptorate    Hash Value = 184
+Position: 185	Word: lazyish         Hash Value = 185
+Position: 186	Word: calista         Hash Value = 186
+Position: 187	Word: stull           Hash Value = 183
+Position: 188	Word: stulm           Hash Value = 184
+Position: 189	Word: stapedes        Hash Value = 189
+Position: 190	Word: null
+Position: 191	Word: sedaceae        Hash Value = 191
+Position: 192	Word: upbuild         Hash Value = 167
+Position: 193	Word: null
+Position: 194	Word: vervel          Hash Value = 350027
+Position: 195	Word: phalarica       Hash Value = 170
+Position: 196	Word: rebless         Hash Value = 196
+Position: 197	Word: null
+Position: 198	Word: null
+Position: 199	Word: recompence      Hash Value = 195
+Position: 200	Word: null
+Position: 201	Word: allotrylic      Hash Value = 201
+Position: 202	Word: null
+Position: 203	Word: guaracha        Hash Value = 203
+Position: 204	Word: semiportable    Hash Value = 195
+Position: 205	Word: paygrade        Hash Value = 205
+Position: 206	Word: null
+Position: 207	Word: null
+Position: 208	Word: unparrying      Hash Value = 204
+Position: 209	Word: null
+Position: 210	Word: sheafripe       Hash Value = 349983
+Position: 211	Word: azobenzene      Hash Value = 211
+Position: 212	Word: feedstuff       Hash Value = 212
+Position: 213	Word: null
+Position: 214	Word: null
+Position: 215	Word: pneumatometre   Hash Value = 211
+Position: 216	Word: coxopodite      Hash Value = 216
+Position: 217	Word: undernutrition  Hash Value = 216
+Position: 218	Word: null
+Position: 219	Word: obtuseness      Hash Value = 219
+Position: 220	Word: stodginess      Hash Value = 219
+Position: 221	Word: jailbird        Hash Value = 221
+Position: 222	Word: arista          Hash Value = 222
+Position: 223	Word: azophen         Hash Value = 222
+Position: 224	Word: semisucculent   Hash Value = 215
+Position: 225	Word: predry          Hash Value = 221
+Position: 226	Word: reoffences      Hash Value = 226
+Position: 227	Word: stums           Hash Value = 227
+Position: 228	Word: southernly      Hash Value = 224
+Position: 229	Word: trattoria       Hash Value = 180
+Position: 230	Word: outquote        Hash Value = 230
+Position: 231	Word: pneumatometry   Hash Value = 231
+Position: 232	Word: branchiostomid  Hash Value = 232
+Position: 233	Word: degenerescence  Hash Value = 233
+Position: 234	Word: null
+Position: 235	Word: dermol          Hash Value = 235
+Position: 236	Word: stulp           Hash Value = 187
+Position: 237	Word: null
+Position: 238	Word: scelidosaurian  Hash Value = 238
+Position: 239	Word: faculae         Hash Value = 239
+Position: 240	Word: mounting        Hash Value = 239
+Position: 241	Word: null
+Position: 242	Word: publick         Hash Value = 242
+Position: 243	Word: null
+Position: 244	Word: gallomaniac     Hash Value = 244
+Position: 245	Word: pitied          Hash Value = 244
+Position: 246	Word: null
+Position: 247	Word: appointees      Hash Value = 247
+Position: 248	Word: prederive       Hash Value = 247
+Position: 249	Word: odontiasis      Hash Value = 249
