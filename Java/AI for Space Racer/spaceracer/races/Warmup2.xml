@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<race name="Warmup2" width="200" height="20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RaceSchema.xsd">
+	<asteroid x="104.193436" y="-0.18235219" model="asteroid.jme" />
+</race>

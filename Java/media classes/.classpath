@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/intro-prog-java/bookClasses/javazoom.jar"/>
+	<classpathentry kind="lib" path="C:/intro-prog-java/bookClasses/jmf.jar"/>
+	<classpathentry kind="lib" path="C:/intro-prog-java/bookClasses/sound.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

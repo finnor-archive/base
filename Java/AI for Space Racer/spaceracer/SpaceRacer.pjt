@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20090821-r5004">
+  <project autorefresh="false" main="F:.Files.School.Fall 09.CS201L.spaceracer.ai.StudentAI" manifest="" root="" work="">
+    <createjar file="spaceracer1.jar" flags="12"/>
+    <source>
+      <file active="true" name="ai/StudentAI.java" package="ai" timestamp="14-Oct-2009 17:14:18">
+        <select from="1606" to="1606"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="spaceracer.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>

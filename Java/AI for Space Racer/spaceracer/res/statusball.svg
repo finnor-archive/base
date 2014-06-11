@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Documents and Settings\adenau\Desktop"
+   sodipodi:docname="drawing.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3150">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3152" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop3154" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.1791521"
+     inkscape:cx="154.28571"
+     inkscape:cy="895.71429"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1030"
+     inkscape:window-height="749"
+     inkscape:window-x="132"
+     inkscape:window-y="174" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="path4127"
+       sodipodi:cx="107.34177"
+       sodipodi:cy="142.4216"
+       sodipodi:rx="36.419529"
+       sodipodi:ry="36.419529"
+       d="M 143.7613 142.4216 A 36.419529 36.419529 0 1 1  70.922237,142.4216 A 36.419529 36.419529 0 1 1  143.7613 142.4216 z"
+       inkscape:export-filename="C:\Documents and Settings\adenau\Desktop\greenball.png"
+       inkscape:export-xdpi="158.16"
+       inkscape:export-ydpi="158.16" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="M 106.95386,110.58657 C 92.089825,110.58657 79.640845,120.93932 76.360115,134.80532 C 81.231115,126.08282 89.637445,118.59285 100.45386,114.43032 C 104.85938,112.73493 109.32398,111.72685 113.70386,111.33657 C 111.52874,110.86025 109.27125,110.58657 106.95386,110.58657 z "
+       id="path4136"
+       inkscape:export-filename="C:\Documents and Settings\adenau\Desktop\greenball.png"
+       inkscape:export-xdpi="158.16"
+       inkscape:export-ydpi="158.16" />
+  </g>
+</svg>

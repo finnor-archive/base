@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--  Keep in mind that pixmaps have their origin in the upper left corner! -->
+
+<Font>
+  <CharacterPixmap x="72" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[~]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="60" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[}]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="90" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[|]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="45" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[{]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="68" y="58" width="21" height="29" charWidth="21">
+     <character><![CDATA[z]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="46" y="58" width="22" height="29" charWidth="22">
+     <character><![CDATA[y]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="25" y="58" width="21" height="29" charWidth="21">
+     <character><![CDATA[x]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="58" width="25" height="29" charWidth="25">
+     <character><![CDATA[w]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="227" y="29" width="24" height="29" charWidth="24">
+     <character><![CDATA[v]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="208" y="29" width="19" height="29" charWidth="19">
+     <character><![CDATA[u]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="188" y="29" width="20" height="29" charWidth="20">
+     <character><![CDATA[t]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="160" y="29" width="28" height="29" charWidth="28">
+     <character><![CDATA[s]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="140" y="29" width="20" height="29" charWidth="20">
+     <character><![CDATA[r]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="119" y="29" width="21" height="29" charWidth="21">
+     <character><![CDATA[q]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="95" y="29" width="24" height="29" charWidth="24">
+     <character><![CDATA[p]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="72" y="29" width="23" height="29" charWidth="23">
+     <character><![CDATA[o]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="44" y="29" width="28" height="29" charWidth="28">
+     <character><![CDATA[n]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="20" y="29" width="24" height="29" charWidth="24">
+     <character><![CDATA[m]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="29" width="20" height="29" charWidth="20">
+     <character><![CDATA[l]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="233" y="0" width="23" height="29" charWidth="23">
+     <character><![CDATA[k]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="209" y="0" width="24" height="29" charWidth="24">
+     <character><![CDATA[j]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="187" y="0" width="22" height="29" charWidth="22">
+     <character><![CDATA[i]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="163" y="0" width="24" height="29" charWidth="24">
+     <character><![CDATA[h]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="143" y="0" width="20" height="29" charWidth="20">
+     <character><![CDATA[g]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="120" y="0" width="23" height="29" charWidth="23">
+     <character><![CDATA[f]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="99" y="0" width="21" height="29" charWidth="21">
+     <character><![CDATA[e]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="73" y="0" width="26" height="29" charWidth="26">
+     <character><![CDATA[d]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="47" y="0" width="26" height="29" charWidth="26">
+     <character><![CDATA[c]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="24" y="0" width="23" height="29" charWidth="23">
+     <character><![CDATA[b]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="0" width="24" height="29" charWidth="24">
+     <character><![CDATA[a]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="116" width="84" height="29" charWidth="84">
+     <character><![CDATA[`]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="237" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[_]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="162" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[^]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="30" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[]]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="75" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[\]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="15" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[[]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="210" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[Z]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="195" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[Y]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="180" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[X]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="165" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[W]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="150" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[V]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="135" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[U]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="120" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[T]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="105" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[S]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="90" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[R]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="75" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[Q]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="60" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[P]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="45" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[O]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="30" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[N]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="15" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[M]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="87" width="15" height="29" charWidth="15">
+     <character><![CDATA[L]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="239" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[K]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="224" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[J]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="209" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[I]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="194" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[H]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="179" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[G]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="164" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[F]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="149" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[E]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="134" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[D]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="119" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[C]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="104" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[B]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="89" y="58" width="15" height="29" charWidth="15">
+     <character><![CDATA[A]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="102" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[@]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="235" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[?]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="180" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[>]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="57" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[=]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="165" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[<]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="120" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[;]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="105" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[:]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="145" width="20" height="29" charWidth="20">
+     <character><![CDATA[9]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="221" y="116" width="19" height="29" charWidth="19">
+     <character><![CDATA[8]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="201" y="116" width="20" height="29" charWidth="20">
+     <character><![CDATA[7]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="180" y="116" width="21" height="29" charWidth="21">
+     <character><![CDATA[6]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="162" y="116" width="18" height="29" charWidth="18">
+     <character><![CDATA[5]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="141" y="116" width="21" height="29" charWidth="21">
+     <character><![CDATA[4]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="122" y="116" width="19" height="29" charWidth="19">
+     <character><![CDATA[3]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="104" y="116" width="18" height="29" charWidth="18">
+     <character><![CDATA[2]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="84" y="116" width="20" height="29" charWidth="20">
+     <character><![CDATA[1]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="20" y="145" width="22" height="29" charWidth="22">
+     <character><![CDATA[0]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="203" width="15" height="29" charWidth="15">
+     <character><![CDATA[/]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="220" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[.]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="42" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[-]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="195" y="174" width="25" height="29" charWidth="25">
+     <character><![CDATA[,]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="0" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[+]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="192" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[*]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="222" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[)]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="207" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[(]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="150" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA[']]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="177" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[&]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="147" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[%]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="132" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[$]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="117" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[#]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="135" y="174" width="15" height="29" charWidth="15">
+     <character><![CDATA["]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="87" y="145" width="15" height="29" charWidth="15">
+     <character><![CDATA[!]]></character>
+  </CharacterPixmap>
+
+  <CharacterPixmap x="15" y="203" width="5" height="29" charWidth="5">
+     <character><![CDATA[ ]]></character>
+  </CharacterPixmap>
+
+</Font>

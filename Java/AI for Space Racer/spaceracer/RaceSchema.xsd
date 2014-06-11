@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!-- Definition of simple types -->
+
+<xs:simpleType name="modelType">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="([a-zA-Z0-9_ \-])*[.][j][m][e]"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="aiType">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[a-zA-Z]([a-zA-Z0-9_ ])*[.][c][l][a][s][s]"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="amountType">
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="1000"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="speedType">
+    <xs:restriction base="xs:decimal">
+        <xs:minInclusive value="0.0"/>
+        <xs:maxInclusive value="100.0"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="xType">
+    <xs:restriction base="xs:decimal">
+        <xs:minInclusive value="0.0"/>
+        <xs:maxInclusive value="3000.0"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="yType">
+    <xs:restriction base="xs:decimal">
+        <xs:minInclusive value="-512.0"/>
+        <xs:maxInclusive value="512.0"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="nameType">
+    <xs:restriction base="xs:string"/>
+</xs:simpleType>
+
+<xs:simpleType name="widthType">
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="8"/>
+        <xs:maxInclusive value="3000"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="heightType">
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="8"/>
+        <xs:maxInclusive value="1024"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<!-- Definition of complex types -->
+
+<xs:complexType name="attrxymodel">
+    <xs:attribute name="x" type="xType" use="required"/>
+    <xs:attribute name="y" type="yType" use="required"/>
+    <xs:attribute name="model" type="modelType" use="optional"/>
+</xs:complexType>
+
+<xs:complexType name="attrxLeftxRightamountmodel">
+    <xs:attribute name="xLeft" type="xType" use="required"/>
+    <xs:attribute name="xRight" type="xType" use="required"/>
+    <xs:attribute name="amount" type="amountType" use="required"/>
+    <xs:attribute name="model" type="modelType" use="optional"/>
+</xs:complexType>
+
+<xs:complexType name="attrxmodel">
+    <xs:attribute name="x" type="xType" use="required"/>
+    <xs:attribute name="model" type="modelType" use="optional"/>
+</xs:complexType>
+
+<xs:complexType name="attrnamexymodelai">
+    <xs:attribute name="name" type="nameType" use="required"/>
+    <xs:attribute name="x" type="xType" use="required"/>
+    <xs:attribute name="y" type="yType" use="required"/>
+     <xs:attribute name="model" type="modelType" use="required"/>
+    <xs:attribute name="ai" type="aiType" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="attrnamewidthheight">
+    <xs:attribute name="name" type="nameType" use="required"/>
+    <xs:attribute name="width" type="widthType" use="required"/>
+    <xs:attribute name="height" type="heightType" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="attrobjectamountxLeftxRightmodel">
+	<xs:attribute name="object" type="xs:string" use="required" />
+	<xs:attribute name="amount" type="amountType" use="required" />
+	<xs:attribute name="xLeft" type="xType" use="required" />
+	<xs:attribute name="xRight" type="xType" use="required" />
+	<xs:attribute name="model" type="modelType" use="optional" />
+</xs:complexType>
+
+<xs:complexType name="attrobjectxmodel">
+	<xs:attribute name="object" type="xs:string" use="required" />
+	<xs:attribute name="x" type="xType" use="required" />
+	<xs:attribute name="model" type="modelType" use="optional" />
+</xs:complexType>
+
+<!-- Definition of a full race -->
+
+<xs:element name="race">
+    <xs:complexType>
+	    <xs:complexContent>
+		    <xs:extension base="attrnamewidthheight">
+			    <xs:sequence>
+			        <xs:element maxOccurs="unbounded" minOccurs="0" name="asteroid" type="attrxymodel"/>
+			        <xs:element maxOccurs="unbounded" minOccurs="0" name="comet">
+			            <xs:complexType>
+			            	<xs:complexContent>
+			            		<xs:extension base="attrxymodel">
+			            			<xs:attribute name="speed" type="speedType" use="required"/>
+			            		</xs:extension>
+			            	</xs:complexContent>			                
+			            </xs:complexType>
+			        </xs:element>
+			        <xs:element maxOccurs="unbounded" minOccurs="0" name="powerUp" type="attrxymodel"/>
+			        <xs:element maxOccurs="unbounded" minOccurs="0" name="randomized" type="attrobjectamountxLeftxRightmodel" />
+			        <xs:element maxOccurs="unbounded" minOccurs="0" name="wall" type="attrobjectxmodel"/>
+			        <xs:element maxOccurs="unbounded" minOccurs="0" name="spaceship" type="attrnamexymodelai"/>
+			    </xs:sequence>
+		    </xs:extension>
+	    </xs:complexContent>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

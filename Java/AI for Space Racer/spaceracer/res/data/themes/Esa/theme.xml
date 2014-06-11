@@ -1,0 +1,776 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--
+
+The Esa's theme is created and maintained by Esa Tanskanen <fladimir2002@hotmail.com>.
+
+The FengGUI team is in great depth for his contribution!
+
+Please note that this theme is currently not operational due to changes
+in the way themes are loaded!
+
+-->
+
+<FengGUI:Theme>
+	<Texture name="BLPixmaps" alpha="true">
+		<filename>data/themes/Esa/pixmaps.png</filename>
+	</Texture>
+	
+	<Texture name="BLPixmapsHL" alpha="true">
+		<filename>data/themes/Esa/pixmaps-mouseover.png</filename>
+	</Texture>
+	
+	<Texture name="BLPixmapsPressed" alpha="true">
+		<filename>data/themes/Esa/pixmaps-pressed.png</filename>
+	</Texture>
+
+	<Texture name="texNew" alpha="true">
+		<filename>data/themes/Esa/pixmapsNew.png</filename>
+	</Texture>
+
+
+	<PixmapBorder name="buttonBorder">
+		<topLeftCorner>
+			<Pixmap x="10" y="32" width="7" height="9"> <!-- top-left corner -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</topLeftCorner>
+		
+		<topEdge>
+			<Pixmap x="29" y="32" width="1" height="9"> <!-- top edge -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</topEdge>
+		
+		<topRightCorner>
+			<Pixmap x="84" y="32" width="7" height="9"> <!-- top-right corner -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</topRightCorner>
+		
+		<rightEdge>
+			<Pixmap x="84" y="42" width="7" height="1"> <!-- right hand side edge -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</rightEdge>
+				
+		<bottomRightCorner>
+			<Pixmap x="84" y="43" width="7" height="9"> <!-- bottom-right corner -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</bottomRightCorner>
+		
+		<bottomEdge>
+			<Pixmap x="29" y="43" width="1" height="9"> <!-- bottom edge -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</bottomEdge>
+		
+		<bottomLeftCorner>
+			<Pixmap x="10" y="43" width="7" height="9"> <!-- bottom-left corner -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</bottomLeftCorner>
+	
+		<leftEdge>
+			<Pixmap x="10" y="42" width="7" height="1"> <!-- left hand side edge -->
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</leftEdge>
+	</PixmapBorder>
+
+	<PixmapBorder name="buttonBorderHL">
+		<topLeftCorner>
+			<Pixmap x="10" y="32" width="7" height="9"> <!-- top-left corner -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</topLeftCorner>
+		
+		<topEdge>
+			<Pixmap x="29" y="32" width="1" height="9"> <!-- top edge -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</topEdge>
+		
+		<topRightCorner>
+			<Pixmap x="84" y="32" width="7" height="9"> <!-- top-right corner -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</topRightCorner>
+		
+		<rightEdge>
+			<Pixmap x="84" y="42" width="7" height="1"> <!-- right hand side edge -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</rightEdge>
+				
+		<bottomRightCorner>
+			<Pixmap x="84" y="43" width="7" height="9"> <!-- bottom-right corner -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</bottomRightCorner>
+		
+		<bottomEdge>
+			<Pixmap x="29" y="43" width="1" height="9"> <!-- bottom edge -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</bottomEdge>
+		
+		<bottomLeftCorner>
+			<Pixmap x="10" y="43" width="7" height="9"> <!-- bottom-left corner -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</bottomLeftCorner>
+	
+		<leftEdge>
+			<Pixmap x="10" y="42" width="7" height="1"> <!-- left hand side edge -->
+				<Texture ref="BLPixmapsHL"/>
+			</Pixmap>
+		</leftEdge>
+	</PixmapBorder>
+
+	<PixmapBorder name="buttonBorderPressed">
+		<topLeftCorner>
+			<Pixmap x="10" y="32" width="7" height="9"> <!-- top-left corner -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</topLeftCorner>
+		
+		<topEdge>
+			<Pixmap x="29" y="32" width="1" height="9"> <!-- top edge -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</topEdge>
+		
+		<topRightCorner>
+			<Pixmap x="84" y="32" width="7" height="9"> <!-- top-right corner -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</topRightCorner>
+		
+		<rightEdge>
+			<Pixmap x="84" y="42" width="7" height="1"> <!-- right hand side edge -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</rightEdge>
+				
+		<bottomRightCorner>
+			<Pixmap x="84" y="43" width="7" height="9"> <!-- bottom-right corner -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</bottomRightCorner>
+		
+		<bottomEdge>
+			<Pixmap x="29" y="43" width="1" height="9"> <!-- bottom edge -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</bottomEdge>
+		
+		<bottomLeftCorner>
+			<Pixmap x="10" y="43" width="7" height="9"> <!-- bottom-left corner -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</bottomLeftCorner>
+	
+		<leftEdge>
+			<Pixmap x="10" y="42" width="7" height="1"> <!-- left hand side edge -->
+				<Texture ref="BLPixmapsPressed"/>
+			</Pixmap>
+		</leftEdge>
+	</PixmapBorder>
+	
+	<Button>
+		<Color value="white"/>
+	
+		<padding>
+			<Spacing leftright="2"/>
+		</padding>
+
+		<margin>
+			<Spacing leftright="1" topbottom="2"/>
+		</margin>
+		
+		<Alignment value="middle"/>
+			
+		<PressedState>
+			<background>
+				<PlainBackground>
+					<Color rgba="143, 148, 158, 255"/>
+				</PlainBackground>
+			</background>
+		</PressedState>
+		
+		<MouseOverState>
+			<background>
+				<PlainBackground>
+					<Color rgba="149, 154, 164, 255"/>
+				</PlainBackground>
+			</background>
+		</MouseOverState>
+		
+		<DefaultState>
+			<background>
+				<PlainBackground>
+					<Color rgba="143, 148, 158, 255"/>
+				</PlainBackground>
+			</background>
+			
+			<border>
+				<PixmapBorder ref="buttonBorder"/>
+			</border>
+		</DefaultState>
+	</Button>
+	
+
+	
+	
+	<Window>
+		<background>
+			<PlainBackground name="background">
+				<Color rgba="82, 90, 107, 255"/>
+			</PlainBackground>
+		</background>
+		
+		<TitleBar>
+			<background>
+				<PlainBackground name="background">
+					<Color rgba="82, 90, 107, 0"/>
+				</PlainBackground>
+			</background>
+		</TitleBar>
+		
+		<!--
+		<padding>
+			<Spacing leftright="-7"/>
+			<Spacing topbottom="-10"/>
+		</padding>
+		-->
+		
+		<TitleBar>
+			<background>
+				<PixmapBackground scaled="true" name="scrollButtonBackground">
+					<topLeft>
+						<Pixmap x="19" y="0" width="6" height="6"><Texture ref="texNew"/></Pixmap>
+					</topLeft>
+					<top>
+						<Pixmap x="25" y="0" width="3" height="6"><Texture ref="texNew"/></Pixmap>
+					</top>
+					<topRight>
+						<Pixmap x="28" y="0" width="6" height="6"><Texture ref="texNew"/></Pixmap>
+					</topRight>
+					<right>
+						<Pixmap x="28" y="6" width="6" height="3"><Texture ref="texNew"/></Pixmap>
+					</right>
+					<bottomRight>
+						<Pixmap x="28" y="9" width="6" height="6"><Texture ref="texNew"/></Pixmap>
+					</bottomRight>
+					<bottom>
+						<Pixmap x="25" y="9" width="3" height="6"><Texture ref="texNew"/></Pixmap>
+					</bottom>
+					<bottomLeft>
+						<Pixmap x="19" y="9" width="6" height="6"><Texture ref="texNew"/></Pixmap>
+					</bottomLeft>
+					<left>
+						<Pixmap x="19" y="6" width="6" height="3"><Texture ref="texNew"/></Pixmap>
+					</left>
+					<center>
+						<Pixmap x="25" y="6" width="3" height="3"><Texture ref="texNew"/></Pixmap>
+					</center>					
+				</PixmapBackground>	
+			</background>		
+		</TitleBar>
+		
+		<TitleLabel>
+			<Color value="white"/>
+			
+			<padding>
+				<Spacing left="8" bottom="2"/>
+			</padding>	
+		</TitleLabel>
+		
+		<CloseButton width="21" height="21" shrinkable="false" expandable="false">
+			<margin>
+				<Spacing topbottom="2" leftright="2"/>
+			</margin>
+			
+			<Alignment value="middle"/>
+
+			<text></text>
+			
+			<DefaultState>
+				<Pixmap x="12" y="19" width="11" height="11"><Texture ref="texNew"/></Pixmap>
+			</DefaultState>
+			
+			<MouseOverState>
+				<Pixmap x="24" y="19" width="11" height="11"><Texture ref="texNew"/></Pixmap>
+			</MouseOverState>
+		</CloseButton>
+		
+		
+		<border>
+			<PixmapBorder>
+				<topLeftCorner>
+					<Pixmap x="0" y="0" width="7" height="7"> <!-- top-left corner -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</topLeftCorner>
+				
+				<topEdge>
+					<Pixmap x="8" y="0" width="2" height="7"> <!-- top edge -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</topEdge>
+				
+				<topRightCorner>
+					<Pixmap x="11" y="0" width="7" height="7"> <!-- top-right corner -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</topRightCorner>
+				
+				<rightEdge>
+					<Pixmap x="11" y="8" width="7" height="2"> <!-- right hand side edge -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</rightEdge>
+				
+				<bottomRightCorner>
+					<Pixmap x="11" y="11" width="7" height="7"> <!-- bottom-right corner -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</bottomRightCorner>
+				
+				<bottomEdge>
+					<Pixmap x="8" y="11" width="2" height="7"> <!-- bottom edge -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</bottomEdge>
+				
+				<bottomLeftCorner>
+					<Pixmap x="0" y="11" width="7" height="7"> <!-- bottom-left corner -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</bottomLeftCorner>
+			
+				<leftEdge>
+					<Pixmap x="0" y="8" width="8" height="2"> <!-- left hand side edge -->
+						<Texture ref="texNew"/>
+					</Pixmap>
+				</leftEdge>
+			</PixmapBorder>
+		</border>
+	</Window>
+	
+	
+	<List>
+		<background>
+			<PlainBackground>
+				<Color value="white"/>
+			</PlainBackground>				
+		</background>
+		
+		<mouseOverColor>
+			<Color name="mouseOverColor" value="red"/>
+		</mouseOverColor>
+	</List>
+	
+	
+	<ComboBox>
+		<border ref="buttonBorder"/>
+	
+		<Pixmap x="0" y="23" width="17" height="18"> 
+			<Texture ref="BLPixmaps"/>
+		</Pixmap>
+		
+		<PopupList>
+			<border>
+				<PlainBorder>
+					<Color value="black"/>
+				</PlainBorder>
+			</border>
+			
+			<background>
+				<PlainBackground>
+					<Color value="white"/>
+				</PlainBackground>	
+			</background>
+			
+			<mouseOverColor ref="mouseOverColor"/>
+			
+			<selectionColor>
+				<Color value="blue"/>
+			</selectionColor>
+		</PopupList>
+	</ComboBox>
+	
+	
+	<RadioButton gap="5">
+		<DefaultState>
+			<Pixmap x="39" y="0" width="13" height="13"> 
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</DefaultState>
+		
+		<SelectedState>
+			<Pixmap x="26" y="0" width="13" height="13"> 
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</SelectedState>
+	</RadioButton>
+	
+	
+	<CheckBox gap="5">
+		<DefaultState>
+			<Pixmap x="13" y="0" width="13" height="13"> 
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</DefaultState>
+		
+		<SelectedState>
+			<Pixmap x="0" y="0" width="13" height="13"> 
+				<Texture ref="BLPixmaps"/>
+			</Pixmap>
+		</SelectedState>
+	</CheckBox>
+	
+	
+	<ProgressBar>
+		<Color value="white"/>
+		
+		<barColor>
+			<Color value="blue"/>
+		</barColor>
+	
+		<border>
+			<BevelBorder>
+				<elevated>
+					<Color value="white"/>
+				</elevated>
+				
+				<lowered>
+					<Color rgba="159,152,111,255"/>
+				</lowered>				
+			</BevelBorder>
+		</border>
+	</ProgressBar>
+	
+	
+	<Slider>
+		<lineColor>
+			<Color value="gray"/>
+		</lineColor>
+	
+		<background>
+			<PlainBackground>
+				<Color rgba="224, 220, 195, 225"/>
+			</PlainBackground>
+		</background>	
+	
+		<HorizontalSliderButton width="24" height="15">
+			<DefaultState>
+				<Pixmap x="48" y="23" width="24" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>
+			</DefaultState>
+			
+			<MouseOverState>
+				<Pixmap x="96" y="23" width="24" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>
+			</MouseOverState>
+			
+			<PressedState>
+				<Pixmap x="72" y="23" width="24" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</PressedState>				
+		</HorizontalSliderButton>
+		
+		<VerticalSliderButton width="15" height="24">
+			<DefaultState>
+				<Pixmap x="48" y="38" width="15" height="24"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</DefaultState>
+			
+			<MouseOverState>
+				<Pixmap x="78" y="38" width="15" height="24"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</MouseOverState>
+			
+			<PressedState>
+				<Pixmap x="63" y="38" width="15" height="24"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</PressedState>			
+		</VerticalSliderButton>		
+	</Slider>
+	
+	
+	<ScrollBar>
+		<VerticalIncreaseButton>
+			<text></text>
+			<Alignment value="middle"/>
+			<DefaultState>
+				<Pixmap x="18" y="23" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</DefaultState>
+			
+			<MouseOverState>
+				<Pixmap x="18" y="23" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</MouseOverState>			
+			
+			<PressedState>
+				<Pixmap x="18" y="38" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</PressedState>				
+		</VerticalIncreaseButton>
+		
+		<VerticalDecreaseButton>
+			<text></text>
+			<Alignment value="middle"/>
+			<DefaultState>
+				<Pixmap x="33" y="23" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</DefaultState>
+			
+			<MouseOverState>
+				<Pixmap x="33" y="23" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</MouseOverState>
+			
+			<PressedState>
+				<Pixmap x="33" y="38" width="15" height="15">  
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</PressedState>	
+		</VerticalDecreaseButton>
+
+		<HorizontalIncreaseButton>
+			<text></text>
+			<Alignment value="middle"/>
+			<DefaultState>
+				<Pixmap x="33" y="53" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</DefaultState>
+			
+			<PressedState>
+				<Pixmap x="18" y="53" width="15" height="15">  
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+			</PressedState>
+			
+			<MouseOverState>		
+				<Pixmap x="33" y="53" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>					
+			</MouseOverState>
+		</HorizontalIncreaseButton>
+	
+		<HorizontalDecreaseButton>
+			<text></text>
+			<Alignment value="middle"/>
+			<DefaultState>
+				<Pixmap x="33" y="68" width="15" height="15">  
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>		
+			</DefaultState>
+			
+			<MouseOverState>
+				<Pixmap x="33" y="68" width="15" height="15">  
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>		
+			</MouseOverState>			
+			
+			<PressedState>
+				<Pixmap x="18" y="68" width="15" height="15"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>				
+			</PressedState>	
+		</HorizontalDecreaseButton>
+		
+		<ScrollSlider>
+			<HorizontalSliderButton>
+				<border>
+					<PixmapBorder name="scrollButtonBorder">
+						<topLeftCorner>
+							<Pixmap x="94" y="39" width="2" height="2"> <!-- top-left corner -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</topLeftCorner>
+						
+						<topEdge>
+							<Pixmap x="96" y="39" width="1" height="2"> <!-- top edge -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</topEdge>
+						
+						<topRightCorner>
+							<Pixmap x="97" y="39" width="2" height="2"> <!-- top-right corner -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</topRightCorner>
+						
+						<rightEdge>
+							<Pixmap x="97" y="42" width="2" height="2"> <!-- right hand side edge -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</rightEdge>
+								
+						<bottomRightCorner>
+							<Pixmap x="97" y="45" width="2" height="2"> <!-- bottom-right corner -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</bottomRightCorner>
+						
+						<bottomEdge>
+							<Pixmap x="96" y="45" width="1" height="2"> <!-- bottom edge -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</bottomEdge>
+						
+						<bottomLeftCorner>
+							<Pixmap x="94" y="45" width="2" height="2"> <!-- bottom-left corner -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</bottomLeftCorner>
+					
+						<leftEdge>
+							<Pixmap x="94" y="42" width="2" height="2"> <!-- left hand side edge -->
+								<Texture ref="BLPixmaps"/>
+							</Pixmap>
+						</leftEdge>
+					</PixmapBorder>
+				</border>
+				<Alignment value="middle"/>
+				<Pixmap x="140" y="0" width="15" height="9"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>			
+	
+				<background>
+					<GradientBackground name="scrollButtonBackground">
+						<topLeft><Color rgba="176, 186, 219, 255"/></topLeft>
+						<topRight><Color rgba="142, 164, 203, 255"/></topRight>
+						<bottomLeft><Color rgba="176, 186, 219, 255"/></bottomLeft>
+						<bottomRight><Color rgba="142, 164, 203, 255"/></bottomRight>												
+					</GradientBackground>					
+				</background>
+	
+			</HorizontalSliderButton>
+			
+			<VerticalSliderButton>
+				<border ref="scrollButtonBorder"/>
+				<background ref="scrollButtonBackground"/>
+				<Alignment value="middle"/>
+				<Pixmap x="140" y="9" width="9" height="17"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>
+			</VerticalSliderButton>
+		</ScrollSlider>
+		
+		
+		<SplitContainer barSize="9">
+			<separatorBorderColor>
+				<Color rgb="159, 152, 111"/>
+			</separatorBorderColor>
+			
+			<separatorBackgroundColor>
+				<Color rgb="236, 233, 216"/>
+			</separatorBackgroundColor>
+			
+			<verticalSeparatorPixmap>
+				<Pixmap x="153" y="12" width="5" height="11"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>					
+			</verticalSeparatorPixmap>
+			
+			<horizontalSeparatorPixmap>
+				<Pixmap x="157" y="1" width="11" height="5"> 
+					<Texture ref="BLPixmaps"/>
+				</Pixmap>		
+			</horizontalSeparatorPixmap>
+		</SplitContainer>
+	</ScrollBar>
+	
+	<Label>
+		<padding>
+			<Spacing leftright="5" topbottom="5"/>
+		</padding>
+	</Label>
+	
+	<Container>
+		<border>
+			<PlainBorder>
+				<Color value="red"/>
+			</PlainBorder>
+		</border>
+	</Container>
+	
+	<Menu>
+		<background>
+			<PlainBackground>
+				<Color value="white"/>
+			</PlainBackground>
+		</background>
+		
+		<border>
+			<PlainBorder>
+				<Color value="black"/>
+			</PlainBorder>
+		</border>
+		
+		<selectionColor>
+			<Color name="mouseOverColor" rgba="120, 120, 255, 150"/>
+		</selectionColor>
+		
+		<Color value="black"/>
+	</Menu>
+	
+	
+	<MenuBar>
+		<background>
+			<PlainBackground>
+				<Color rgba="200, 200, 200,255"/>
+			</PlainBackground>
+		</background>
+		
+		<selectionColor>
+			<Color ref="mouseOverColor"/>
+		</selectionColor>
+		
+		<Color value="black"/>
+	</MenuBar>
+	
+	
+	<TextEditor>
+		<Color value="black"/>
+		
+		<cursorColor>
+			<Color value="black"/>
+		</cursorColor>
+		
+		<background>
+			<PlainBackground>
+				<Color value="white"/>
+			</PlainBackground>
+		</background>
+		
+		<padding>
+			<Spacing leftright="2" top="0" bottom="2"/>
+		</padding>
+		
+		<border>
+			<PlainBorder>
+				<Color value="gray"/>
+			</PlainBorder>
+		</border>
+	</TextEditor>
+	
+</FengGUI:Theme>

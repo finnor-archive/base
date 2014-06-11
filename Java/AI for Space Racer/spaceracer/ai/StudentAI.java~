@@ -1,0 +1,72 @@
+package ai;
+
+import mvc.Control;
+import spaceracer.Asteroid;
+import spaceracer.Comet;
+import spaceracer.Constants;
+import spaceracer.PowerUp;
+import spaceracer.Range;
+import spaceracer.Spaceship;
+import spaceracer.SpaceshipRadar;
+import start.Startup;
+
+public class StudentAI implements Control {
+
+ private Spaceship myShip; 
+ private SpaceshipRadar myRadar;
+ 
+ public StudentAI(Spaceship ship) {
+  myShip = ship;
+  myRadar = myShip.getRadar();
+ }
+  
+ 
+ public void moveShip() {
+   double speed=0;
+   double clearY=0;
+   double y = 0;
+   
+   y = myShip.getY();
+
+   if ((myRadar.isAsteroidAhead()) == false)
+    {
+      myShip.accelerate();
+      myShip.yStop();
+      speed = myShip.getSpeedX();
+    }
+   else
+   {
+     if ((myRadar.collisionImminent()) == false)
+     {
+       while(speed>0)
+       {
+         myShip.decelerate();
+       }
+       
+       if ((myRadar.clearSpotsExist()) == true)
+       {
+         clearY = myRadar.getClosestClearSpot();
+         if (clearY<=y)
+         {
+           myShip.moveDown();
+           myShip.yStop();
+         }
+         else
+         {
+           myShip.moveUp();
+           myShip.yStop();
+         }
+       }
+     }
+       else
+       {
+         myShip.activateShield();
+       }
+     }
+     
+ } 
+ public static void main(String[] args) {
+  Startup.main(args);
+ }
+
+}
