@@ -1,0 +1,135 @@
+Title: Game of Life Requirements Document
+
+Date: August 30, 2010
+Version 1.0
+Document Owner: Anthony Skjellum, tony@cis.uab.edu
+Revision History: 
+
+Version		Date		Author			Comments
+-------         -------         ------                  --------
+1.0             8/30/10         A. Skjellum             Initial rev
+
+
+Synopsis: These are the requirements for the Life application "version2".
+
+I. Non-functional requirements
+
+NF-1. Language
+
+NF-1-1. The program must be written in portable Java, 1.5 or higher.
+
+NF-1-2. The program must compile successfully on a standard Java environment without warnings.
+
+NF-2. The program must be interactive with the user at his/her console.
+
+NF-3. Dimensionality
+
+NF-3-1. Size of Life worlds must not be arbitrarily limited in the code.
+
+NF-3-2. It is OK to require a minimum world size of 3x3.
+
+NF-4. This is a text/console-based implementation of Life, which interacts
+through the Java environment in a console/shell type environment, not through
+a GUI.
+
+NF-5. Programming Requirements
+
+NF-5-1. The program must make good use of object-oriented methods, including
+inheritance.
+
+NF-5-2. Formatting must choose a market standard style, one that would be familiar
+to a plurality of Java programmers.
+
+NF-5-3. Meaningful comments must be included to explain the algorithm and
+its implementation, wherever needed to explain the logic.
+
+NF-5-4. Use of Javadoc is not required, but is permitted.
+
+NF-5-5. Exception handling is strongly preferred to address runtime errors.
+
+NF-5-6. Index numbering in arrays must be zero-based, not one-based.
+
+NF-6. Performance (non-functional): The performance of the software should be sufficient
+to allow interactive-size worlds (ones that fit on common consoles up to 100x100), to
+be generated fast enough so that the console display rate is the limiting factor in
+using this interactive application.  
+
+NF-7. The format for the file for life has this format
+
+NF-7-1. File format
+
+The upper left corner is row=0, column=0; the bottom right is row=M-1, column=N-1
+given that there are M rows, and N columns.  This reads like an array...
+
+<Number of Rows> <Number of Columns>
++----------------------------------+      <-- border of appropriate width
+|                                  |      <-- one line for each row of the life world (this is empty) [bars at start and end of lines]
+|         *       *          *     |      <-- one line for each row of the life world (this is not empty)
+|         *      *           *     |      <-- one line for each row of the life world (this is not empty)
+|         *      ***         *     |      <-- one line for each row of the life world (this is not empty)
+|                                  |      <-- one line for each row of the life world (this is empty)
+... 
+|         *       *          *     |      <-- one line for each row of the life world (this is not empty)
++----------------------------------+      <-- border of appropriate width
+<--- file has an end of line at last line
+
+NF-7-2. Within the formatted file, space represents "dead cell" and asterisk represents "live cell."
+
+NF-7-3. The exact text format (CRLF vs. LF) formatting of the text file can be decided by standard Java I/O functions.
+
+Why is this not a functional requirement?
+
+II. Functional requirements
+
+F-1. This software must correctly implement the game of Life,
+as invented by John Conway.
+
+Ref: http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+F-2. The program must be able to write out the final Life generation
+it computes, using formatting described in NF-7.
+
+F-3. A subsequent run of the program must be able to read
+the file produced as output from an earlier run of the program.
+
+That means that you can run the life program over and over again, taking
+the output from one run, and using it as the input to the next.
+
+F-4. There are finite boundaries in this implementation of Life, which means that boundary conditions
+have to be chosen.
+
+Two usual sets of boundary conditions are used in Life programs
+* Periodic; which turns the space into torus (doughnut)
+* Zero; which means the edges are "held to zero"
+
+F-4-1. This implementation must support Zero.
+
+F-4-2. This implementation may support Periodic.  
+
+F-4-3. If both methods are supported, they must be user selectable at runtime.
+
+F-4-4. No special or additional quantities are allowed in the input file.  
+
+F-5. Generation Computations
+
+F-5-1. The user can select zero or more generations to perform.  Zero is valid, it means that the output
+written is same as the input read.
+
+F-5-2. Each intermediate generation created should be output to the console, including what is initially
+read, and what is finally written to the output file.
+
+F-5-3. The program may optionally allow the user to suppress intermediate output at runtime.
+
+F-6. Errors.
+
+F-6-1. The following runtime errors should be recoverable through retry:
+
+A. User entry of an invalid file name (can't read file)
+B. User entry of an invalid file name (can't write file)
+C. Entry of a negative or invalid number of generation (0 is valid).
+
+F-6-2. If recovery is not achieved, then at least error messages are to be displayed.
+
+Note: this involves input/output, so we view them as functional.
+
+
