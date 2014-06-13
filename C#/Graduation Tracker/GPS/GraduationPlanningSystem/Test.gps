@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Degree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HoursPerSemester>0</HoursPerSemester>
+  <RequiredCourses>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Calculus A</Name>
+      <UID>MA00171</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>MA 171</CourseNumber>
+      <Department>Math</Department>
+      <Hours>4</Hours>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>1</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Calculus B</Name>
+      <UID>MA00172</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>MA 172</CourseNumber>
+      <Department>Math</Department>
+      <Hours>4</Hours>
+      <CoReq>
+        <string>MA00171</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>2</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Calculus C</Name>
+      <UID>MA00201</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>MA 201</CourseNumber>
+      <Department>Math</Department>
+      <Hours>4</Hours>
+      <CoReq>
+        <string>MA00172</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>4</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Linear Algebra</Name>
+      <UID>MA00244</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>MA 244</CourseNumber>
+      <Department>Math</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>MA00172</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>4</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Applied Diff Equations</Name>
+      <UID>MA00238</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>MA 238</CourseNumber>
+      <Department>Math</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>MA00172</string>
+      </CoReq>
+      <PrereqOrCoreq>
+        <string>MA00201</string>
+      </PrereqOrCoreq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Chemistry I</Name>
+      <UID>CH00121</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>CH 121</CourseNumber>
+      <Department>Chemistry</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>CH00125</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>1</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Chem Lab</Name>
+      <UID>CH00125</UID>
+      <SemOffered>MF</SemOffered>
+      <CourseNumber>CH 125</CourseNumber>
+      <Department>Chemistry</Department>
+      <Hours>1</Hours>
+      <Prereq>
+        <string>CH00121</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>1</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Physics</Name>
+      <UID>PH00111</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>PH 111</CourseNumber>
+      <Department>Physics</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>PH00114</string>
+      </Prereq>
+      <CoReq>
+        <string>MA 171</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>2</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Physics Lab</Name>
+      <UID>PH00114</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>PH 114</CourseNumber>
+      <Department>Physics</Department>
+      <Hours>1</Hours>
+      <Prereq>
+        <string>PH00111</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>2</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Physics with Calculus II</Name>
+      <UID>PH00112</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>PH 112</CourseNumber>
+      <Department>Physics</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>PH00115</string>
+      </Prereq>
+      <CoReq>
+        <string>MA00172</string>
+        <string>PH00111</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>4</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Physics Lab II</Name>
+      <UID>PH00115</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>PH 115</CourseNumber>
+      <Department>Physics</Department>
+      <Hours>1</Hours>
+      <Prereq>
+        <string>PH00112</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>4</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Physics  III</Name>
+      <UID>PH00116</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>PH 113</CourseNumber>
+      <Department>Physics</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>PH00116</string>
+      </Prereq>
+      <CoReq>
+        <string>MA00201</string>
+        <string>PH00112</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>General Physics Lab III</Name>
+      <UID>PH0116L</UID>
+      <SemOffered>SF</SemOffered>
+      <CourseNumber>PH 116</CourseNumber>
+      <Department>Physics</Department>
+      <Hours>1</Hours>
+      <Prereq>
+        <string>PH00113</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Engineering Economy</Name>
+      <UID>ISE0321</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>ISE 321</CourseNumber>
+      <Department>Industrial and Systems Eng</Department>
+      <Hours>3</Hours>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>10</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Fundamentals of Engineering</Name>
+      <UID>EE00100</UID>
+      <SemOffered>SF</SemOffered>
+      <CourseNumber>EE 100</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>EE0100L</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>1</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Comp Programming</Name>
+      <UID>CPE0112</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>CPE 112</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>CPE112L</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>2</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Comp Prog Lab</Name>
+      <UID>CPE112L</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>CPE 112L</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>0</Hours>
+      <Prereq>
+        <string>CPE0112</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>2</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Digital Logic </Name>
+      <UID>EE00202</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 202</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00100</string>
+        <string>CPE0112</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>4</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Digital Logic Design Lab</Name>
+      <UID>EE00201</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 203</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>1</Hours>
+      <CoReq>
+        <string>EE00202</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Electrical Circuit Analysis I</Name>
+      <UID>EE00213</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 213 </CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>PH00112</string>
+      </CoReq>
+      <PrereqOrCoreq>
+        <string>MA00238</string>
+        <string>MA00244</string>
+      </PrereqOrCoreq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Computer Organization</Name>
+      <UID>CPE0221</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>CPE 221, EE 321</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00202</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Electricity and Magnetism</Name>
+      <UID>EE00307</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 307</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00213</string>
+        <string>EE00300</string>
+        <string>MA00238</string>
+        <string>MA00244</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>7</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Solid State Fundamentals</Name>
+      <UID>EE00310</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 310</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>PH00113</string>
+        <string>MA00238</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>7</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Electrical Circuit Analysis II</Name>
+      <UID>EE00313</UID>
+      <SemOffered>SF</SemOffered>
+      <CourseNumber>EE 313</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00213</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>7</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Analytical Meth for Cont Time Sys</Name>
+      <UID>EE00382</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 382</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00213</string>
+        <string>EE00300</string>
+        <string>MA00238</string>
+        <string>MA00244</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>7</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Analytical Meth for Dis Time Sys</Name>
+      <UID>EE00383</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 383</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00382</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>8</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Digital Signal Proc Lab</Name>
+      <UID>EE00384</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 384</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>1</Hours>
+      <CoReq>
+        <string>EE00383</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>8</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Elect Analysis and Design</Name>
+      <UID>EE00315</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 315</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00213</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>8</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Emag Engineering</Name>
+      <UID>EE00308</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 308</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00307</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>8</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Electronics Design Laboratory</Name>
+      <UID>EE00316</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 316</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>1</Hours>
+      <CoReq>
+        <string>EE00315</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>8</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Control and Robotic Sys</Name>
+      <UID>EE00386</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 386</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00382</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>8</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Random Signals and Noise</Name>
+      <UID>EE00385</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 385</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00382</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>8</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>EE Design Projects</Name>
+      <UID>EE00494</UID>
+      <SemOffered>S</SemOffered>
+      <CourseNumber>EE 494</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>ISE0321</string>
+        <string>EE00315</string>
+        <string>CPE0323</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>11</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Communication Theory</Name>
+      <UID>EE00426</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 426</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00382</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>3</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Data Com Networks</Name>
+      <UID>EE00424</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 424</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00383</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>10</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Analog and Dig Filter Design</Name>
+      <UID>EE00414</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 414</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00315</string>
+        <string>EE00383</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>3</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Electonics 2</Name>
+      <UID>EE00416</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 416</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00313</string>
+        <string>EE00315</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>10</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Digital Electronics</Name>
+      <UID>EE00436</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 436</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00202</string>
+        <string>EE00315</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>11</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Advanced Logic Design</Name>
+      <UID>EE00422</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 422</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>EE0422L</string>
+      </Prereq>
+      <CoReq>
+        <string>EE00202</string>
+        <string>EE00315</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>6</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>VLSI Design</Name>
+      <UID>EE00427</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 427</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <Prereq>
+        <string>EE0427L</string>
+      </Prereq>
+      <CoReq>
+        <string>EE00202</string>
+        <string>EE00315</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>9</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Optoelectronics</Name>
+      <UID>EE00451</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 451</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00315</string>
+      </CoReq>
+      <PrereqOrCoreq>
+        <string>EE00307</string>
+      </PrereqOrCoreq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>3</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Optical Fiber Comm</Name>
+      <UID>EE00454</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 454</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00307</string>
+        <string>EE00382</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>6</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Laser Systems</Name>
+      <UID>EE00453</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 453</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>EE00307</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>11</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>VLSI Design</Name>
+      <UID>EE00427</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 427</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>0</Hours>
+      <Prereq>
+        <string>EE00427</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>11</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Ad Logic Design Lab</Name>
+      <UID>EE0422L</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 422L</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>0</Hours>
+      <Prereq>
+        <string>EE00422</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Electronic Measurement Lab</Name>
+      <UID>EE00214</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE214</CourseNumber>
+      <Department>Engineering</Department>
+      <Hours>1</Hours>
+      <CoReq>
+        <string>EE00213</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>6</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Embedded Comp</Name>
+      <UID>CPE0323</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>CPE 323</CourseNumber>
+      <Department>Computer Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>CPE0221</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>7</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Embedded Systems Lab</Name>
+      <UID>CPE0325</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>CPE 325</CourseNumber>
+      <Department>Computer Engineering</Department>
+      <Hours>1</Hours>
+      <Prereq>
+        <string>CPE0323</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>7</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Software Design and Eng</Name>
+      <UID>CPE0353</UID>
+      <SemOffered>F</SemOffered>
+      <CourseNumber>CPE 353</CourseNumber>
+      <Department>Computer Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>CPE0212</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>3</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Senior Software Studio</Name>
+      <UID>CPE0453</UID>
+      <SemOffered>S</SemOffered>
+      <CourseNumber>CPE 453</CourseNumber>
+      <Department>Computer Engineering</Department>
+      <Hours>3</Hours>
+      <CoReq>
+        <string>CPE0353</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>9</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>Intro to Software Engineering</Name>
+      <UID>CPE0212</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 212, CPE 212</CourseNumber>
+      <Department>Computer Engineering</Department>
+      <Hours>4</Hours>
+      <CoReq>
+        <string>CPE0112</string>
+      </CoReq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>6</SemesterTaken>
+    </Course>
+    <Course>
+      <Taken>false</Taken>
+      <Name>EE 100 Lab</Name>
+      <UID>EE0100L</UID>
+      <SemOffered>SMF</SemOffered>
+      <CourseNumber>EE 100L</CourseNumber>
+      <Department>Electrical Engineering</Department>
+      <Hours>0</Hours>
+      <Prereq>
+        <string>EE00100</string>
+      </Prereq>
+      <DefaultSemester>0</DefaultSemester>
+      <SemesterTaken>5</SemesterTaken>
+    </Course>
+  </RequiredCourses>
+  <ElectiveCourses>
+    <Elective>
+      <Courses />
+      <Name>Art History Survey Renaissance</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>ARH SURV Non-west</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>World History to 1500</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>World History since 1500</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>Western Civ</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>Western Civ II</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>Intro to Philosopy</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>Intro to Ethics</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>Italian Art</Name>
+    </Elective>
+    <Elective>
+      <Courses />
+      <Name>Ancient Greek Art</Name>
+    </Elective>
+  </ElectiveCourses>
+  <Semesters>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Chemistry I</Name>
+          <UID>CH00121</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>CH 121</CourseNumber>
+          <Department>Chemistry</Department>
+          <Hours>3</Hours>
+          <Prereq>
+            <string>CH00125</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Western Civ</Name>
+          <UID>HY00101</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>HY 101</CourseNumber>
+          <Department>History</Department>
+          <Hours>3</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Fundamentals of Engineering</Name>
+          <UID>EE00100</UID>
+          <SemOffered>SF</SemOffered>
+          <CourseNumber>EE 100</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <Prereq>
+            <string>EE0100L</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Calculus B</Name>
+          <UID>MA00172</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>MA 172</CourseNumber>
+          <Department>Math</Department>
+          <Hours>4</Hours>
+          <CoReq>
+            <string>MA00171</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Western Civ II</Name>
+          <UID>HY00102</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>HY 102</CourseNumber>
+          <Department>History</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>HY00101</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Physics</Name>
+          <UID>PH00111</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>PH 111</CourseNumber>
+          <Department>Physics</Department>
+          <Hours>3</Hours>
+          <Prereq>
+            <string>PH00114</string>
+          </Prereq>
+          <CoReq>
+            <string>MA 171</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Physics Lab</Name>
+          <UID>PH00114</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>PH 114</CourseNumber>
+          <Department>Physics</Department>
+          <Hours>1</Hours>
+          <Prereq>
+            <string>PH00111</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Freshman Composition</Name>
+          <UID>EH00102</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EH 102</CourseNumber>
+          <Department>English</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EH00101</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Comp Programming</Name>
+          <UID>CPE0112</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>CPE 112</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <Prereq>
+            <string>CPE112L</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Comp Prog Lab</Name>
+          <UID>CPE112L</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>CPE 112L</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>0</Hours>
+          <Prereq>
+            <string>CPE0112</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Calculus A</Name>
+          <UID>MA00171</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>MA 171</CourseNumber>
+          <Department>Math</Department>
+          <Hours>4</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>English Composition</Name>
+          <UID>EH00101</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EH 101</CourseNumber>
+          <Department>English</Department>
+          <Hours>3</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Chem Lab</Name>
+          <UID>CH00125</UID>
+          <SemOffered>MF</SemOffered>
+          <CourseNumber>CH 125</CourseNumber>
+          <Department>Chemistry</Department>
+          <Hours>1</Hours>
+          <Prereq>
+            <string>CH00121</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses />
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Calculus C</Name>
+          <UID>MA00201</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>MA 201</CourseNumber>
+          <Department>Math</Department>
+          <Hours>4</Hours>
+          <CoReq>
+            <string>MA00172</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Physics with Calculus II</Name>
+          <UID>PH00112</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>PH 112</CourseNumber>
+          <Department>Physics</Department>
+          <Hours>3</Hours>
+          <Prereq>
+            <string>PH00115</string>
+          </Prereq>
+          <CoReq>
+            <string>MA00172</string>
+            <string>PH00111</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Physics Lab II</Name>
+          <UID>PH00115</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>PH 115</CourseNumber>
+          <Department>Physics</Department>
+          <Hours>1</Hours>
+          <Prereq>
+            <string>PH00112</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Linear Algebra</Name>
+          <UID>MA00244</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>MA 244</CourseNumber>
+          <Department>Math</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>MA00172</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Digital Logic </Name>
+          <UID>EE00202</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 202</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00100</string>
+            <string>CPE0112</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Art History Survey Renaissance</Name>
+          <UID>ARH0101</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>ARH 101</CourseNumber>
+          <Department>Art History</Department>
+          <Hours>3</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Digital Logic Design Lab</Name>
+          <UID>EE00201</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 203</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>1</Hours>
+          <CoReq>
+            <string>EE00202</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Applied Diff Equations</Name>
+          <UID>MA00238</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>MA 238</CourseNumber>
+          <Department>Math</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>MA00172</string>
+          </CoReq>
+          <PrereqOrCoreq>
+            <string>MA00201</string>
+          </PrereqOrCoreq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Electrical Circuit Analysis I</Name>
+          <UID>EE00213</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 213 </CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>PH00112</string>
+          </CoReq>
+          <PrereqOrCoreq>
+            <string>MA00238</string>
+            <string>MA00244</string>
+          </PrereqOrCoreq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Physics  III</Name>
+          <UID>PH00116</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>PH 113</CourseNumber>
+          <Department>Physics</Department>
+          <Hours>3</Hours>
+          <Prereq>
+            <string>PH00116</string>
+          </Prereq>
+          <CoReq>
+            <string>MA00201</string>
+            <string>PH00112</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>General Physics Lab III</Name>
+          <UID>PH0116L</UID>
+          <SemOffered>SF</SemOffered>
+          <CourseNumber>PH 116</CourseNumber>
+          <Department>Physics</Department>
+          <Hours>1</Hours>
+          <Prereq>
+            <string>PH00113</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Computer Organization</Name>
+          <UID>CPE0221</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>CPE 221, EE 321</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00202</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses />
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Electricity and Magnetism</Name>
+          <UID>EE00307</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 307</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00213</string>
+            <string>EE00300</string>
+            <string>MA00238</string>
+            <string>MA00244</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Solid State Fundamentals</Name>
+          <UID>EE00310</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 310</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>PH00113</string>
+            <string>MA00238</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Electrical Circuit Analysis II</Name>
+          <UID>EE00313</UID>
+          <SemOffered>SF</SemOffered>
+          <CourseNumber>EE 313</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00213</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Analytical Meth for Cont Time Sys</Name>
+          <UID>EE00382</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 382</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00213</string>
+            <string>EE00300</string>
+            <string>MA00238</string>
+            <string>MA00244</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Embedded Comp</Name>
+          <UID>CPE0323</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>CPE 323</CourseNumber>
+          <Department>Computer Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>CPE0221</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Embedded Systems Lab</Name>
+          <UID>CPE0325</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>CPE 325</CourseNumber>
+          <Department>Computer Engineering</Department>
+          <Hours>1</Hours>
+          <Prereq>
+            <string>CPE0323</string>
+          </Prereq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Analytical Meth for Dis Time Sys</Name>
+          <UID>EE00383</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 383</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00382</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Digital Signal Proc Lab</Name>
+          <UID>EE00384</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 384</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>1</Hours>
+          <CoReq>
+            <string>EE00383</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Elect Analysis and Design</Name>
+          <UID>EE00315</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 315</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00213</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Emag Engineering</Name>
+          <UID>EE00308</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 308</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00307</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Electronics Design Laboratory</Name>
+          <UID>EE00316</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 316</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>1</Hours>
+          <CoReq>
+            <string>EE00315</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Control and Robotic Sys</Name>
+          <UID>EE00386</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 386</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00382</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Random Signals and Noise</Name>
+          <UID>EE00385</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 385</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00382</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses />
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>World History to 1500</Name>
+          <UID>HY00103</UID>
+          <SemOffered>SF</SemOffered>
+          <CourseNumber>HY 103</CourseNumber>
+          <Department>History</Department>
+          <Hours>3</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Italian Art</Name>
+          <UID>ARH0300</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>ARH 300</CourseNumber>
+          <Department>Art</Department>
+          <Hours>3</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Engineering Economy</Name>
+          <UID>ISE0321</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>ISE 321</CourseNumber>
+          <Department>Industrial and Systems Eng</Department>
+          <Hours>3</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Electonics 2</Name>
+          <UID>EE00416</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 416</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00313</string>
+            <string>EE00315</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Intro to Data Com Networks</Name>
+          <UID>EE00424</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 424</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00383</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Digital Electronics</Name>
+          <UID>EE00436</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 436</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00202</string>
+            <string>EE00315</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>Laser Systems</Name>
+          <UID>EE00453</UID>
+          <SemOffered>SMF</SemOffered>
+          <CourseNumber>EE 453</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>EE00307</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>World History since 1500</Name>
+          <UID>HY00104</UID>
+          <SemOffered>SF</SemOffered>
+          <CourseNumber>HY 104</CourseNumber>
+          <Department>History</Department>
+          <Hours>3</Hours>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+        <Course>
+          <Taken>false</Taken>
+          <Name>EE Design Projects</Name>
+          <UID>EE00494</UID>
+          <SemOffered>S</SemOffered>
+          <CourseNumber>EE 494</CourseNumber>
+          <Department>Engineering</Department>
+          <Hours>3</Hours>
+          <CoReq>
+            <string>ISE0321</string>
+            <string>EE00315</string>
+            <string>CPE0323</string>
+          </CoReq>
+          <DefaultSemester>0</DefaultSemester>
+          <SemesterTaken>-1</SemesterTaken>
+        </Course>
+      </Courses>
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+    <Semester>
+      <Courses />
+      <TotalAllowedHours>15</TotalAllowedHours>
+    </Semester>
+  </Semesters>
+  <Name>EE</Name>
+  <Year>0</Year>
+</Degree>

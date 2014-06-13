@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file alias="res">chargerhorse.emf</file>
+        <file alias="res">chargerhorse.png</file>
+    </qresource>
+</RCC>

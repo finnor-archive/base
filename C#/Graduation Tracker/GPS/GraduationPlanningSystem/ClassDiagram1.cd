@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraduationPlanningSystem.Data_Objects.Course">
+    <Position X="2.5" Y="2" Width="2" />
+    <NestedTypes>
+      <Enum Name="GraduationPlanningSystem.Data_Objects.Course.AcademicStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data Objects\Course.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAIAQAABEAAAAEAQIEAAACEAAIAABAAAAEAA=</HashCode>
+      <FileName>Data Objects\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Data_Objects.Degree">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBgAAAAAAIAAAAAQAAAEAAAAAAAAAABABABA=</HashCode>
+      <FileName>Data Objects\Degree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Data_Objects.DegreePlan" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data Objects\DegreePlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Data_Objects.DegreePlanner">
+    <Position X="4.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAIACAAQAIAAAAAAAAAAAAAAEGAAAACAAiAA=</HashCode>
+      <FileName>Data Objects\DegreePlanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Data_Objects.Elective">
+    <Position X="6" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAQ=</HashCode>
+      <FileName>Data Objects\Elective.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Data_Objects.Semester">
+    <Position X="6.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAABAAAAA=</HashCode>
+      <FileName>Data Objects\Semester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.DBClass" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAACAAAAAAAAgAAACAAAAABAAAA=</HashCode>
+      <FileName>DBClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.GraduationPlanningSystem" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BQCgAwRAASAQABHAAiCCgAECAIkIABCAAmAAAKApAAA=</HashCode>
+      <FileName>GraduationPlanningSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.AlreadyTakenClasses" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAIABYBASIiAFIwgJSUgECKAACkF1QAhUMBRBBADAA=</HashCode>
+      <FileName>GUI\AlreadyTakenClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.ClassListUI" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAJAAAAAAAAgAAAAAAABAgAAAAAAAAAA=</HashCode>
+      <FileName>GUI\ClassListUI.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.DegreeControl" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFCCAAAOEABQEAAAACAgAAiAAAAMgMAASAAIAAEAA=</HashCode>
+      <FileName>GUI\DegreeControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.GenerateSchedulesForm">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>f+GNCCTEAeMQBDDQ8LCSi0HKrwhkAsgEE1mEBZKBDIQ=</HashCode>
+      <FileName>GUI\GenerateSchedulesForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.OneYearViews" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\OneYearViews.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.PlanPage" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>f6AQCAxEEaAlxDDBkKKAAwdKIRD5NRQAGZgAAA7gRsU=</HashCode>
+      <FileName>GUI\PlanPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.SemesterControl" Collapsed="true">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAIAICABAAAAAAAARAAAAAAAABAAAA=</HashCode>
+      <FileName>GUI\SemesterControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.ParseGPS">
+    <Position X="3.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseGPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Program" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.XMLSerializer">
+    <Position X="0.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XMLSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.GUI.Form1" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraduationPlanningSystem.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

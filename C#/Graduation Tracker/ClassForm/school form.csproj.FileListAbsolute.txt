@@ -1,0 +1,18 @@
+D:\TFS\AMPS\SA\school form\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TFS\AMPS\SA\school form\obj\x86\Debug\school_form.Form1.resources
+D:\TFS\AMPS\SA\school form\obj\x86\Debug\school_form.Properties.Resources.resources
+D:\TFS\AMPS\SA\school form\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\TFS\AMPS\SA\school form\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\TFS\AMPS\SA\school form\bin\Debug\school form.exe
+D:\TFS\AMPS\SA\school form\bin\Debug\school form.pdb
+D:\TFS\AMPS\SA\school form\obj\x86\Debug\school form.exe
+D:\TFS\AMPS\SA\school form\obj\x86\Debug\school form.pdb
+C:\Users\shaub\Desktop\school form\obj\x86\Debug\school form.exe
+C:\Users\shaub\Desktop\school form\obj\x86\Debug\school form.pdb
+C:\Users\shaub\Desktop\school form\bin\Debug\school form.exe
+C:\Users\shaub\Desktop\school form\bin\Debug\school form.pdb
+C:\Users\shaub\Desktop\school form\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\shaub\Desktop\school form\obj\x86\Debug\school_form.Form1.resources
+C:\Users\shaub\Desktop\school form\obj\x86\Debug\school_form.Properties.Resources.resources
+C:\Users\shaub\Desktop\school form\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\shaub\Desktop\school form\obj\x86\Debug\GenerateResource.write.1.tlog

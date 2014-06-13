@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>UAH DESIGN.png</file>
+        <file>chargerhorse.png</file>
+    </qresource>
+</RCC>

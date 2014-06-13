@@ -1,0 +1,5 @@
+C:\Users\shaub\Documents\class\GPS\UnitTests\bin\Release\UnitTests.dll
+C:\Users\shaub\Documents\class\GPS\UnitTests\bin\Release\UnitTests.pdb
+C:\Users\shaub\Documents\class\GPS\UnitTests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\shaub\Documents\class\GPS\UnitTests\obj\Release\UnitTests.dll
+C:\Users\shaub\Documents\class\GPS\UnitTests\obj\Release\UnitTests.pdb

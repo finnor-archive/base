@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="GraduationPlanningSystem.SemesterControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="150">
+    <GroupBox BorderBrush="Black" BorderThickness="2">
+        <GroupBox.Header >
+            <TextBlock Name="txtHeader" Text="Fall" Foreground="Black" FontWeight="Bold" HorizontalAlignment="Center"/>
+        </GroupBox.Header>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+                <TextBlock Margin="5" Grid.Row="0" Text="Maximum Hours: " HorizontalAlignment="Left" VerticalAlignment="Center"  />
+            <TextBox  Grid.Row="0" Name="txtMaxHours" VerticalAlignment="Center" Text="18"  HorizontalAlignment="Right" Margin="5"/>
+            <ListView x:Name="CoursesListView" AllowDrop="True" Grid.Row="1" >
+                
+            </ListView>
+        </Grid>
+    </GroupBox>
+</UserControl>

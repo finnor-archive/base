@@ -1,0 +1,41 @@
+CREATE TABLE classes
+(
+course TEXT,
+courseNum Text,
+hours INTEGER,
+major TEXT,
+prereqs TEXT,
+coreqs TEXT,
+preco TEXT,
+days TEXT,
+semester TEXT
+);
+
+INSERT INTO classes VALUES ('Calculus A', 'MA 171', 4, 'Math', '', '', '', '', '');
+INSERT INTO classes VALUES ('Calculus B', 'MA 172', 4, 'Math', 'MA 171', '', '', '', '');
+INSERT INTO classes VALUES ('General Chemistry I', 'CH 121', 3, 'Chemistry', '', 'CH 125', '', '', '');
+INSERT INTO classes VALUES ('General Chem Lab', 'CH 125', 1, 'Chemistry', '', 'CH 121', '', '', '');
+INSERT INTO classes VALUES ('General Physics', 'PH 111', 3, 'Physics', 'MA 171', 'PH 114', '', '', '');
+INSERT INTO classes VALUES ('General Physics Lab', 'PH 114', 1, 'Physics', '', 'PH 111', '', '', '');
+INSERT INTO classes VALUES ('English Composition', 'EH 101', 3, 'English', '', '', '', '', '');
+INSERT INTO classes VALUES ('Freshman Composition', 'EH 102', 3, 'English', 'EH 101', '', '', '', '');
+INSERT INTO classes VALUES ('Fundamentals of Engineering', 'EE 100', 3, 'Engineering', '', 'EE 100L', '', '', '');
+INSERT INTO classes VALUES ('Intro to Comp Programming', 'CPE 112', 3, 'Engineering', '', 'CPE 112L', '', '', '');
+INSERT INTO classes VALUES ('Intro to Comp Prog Lab', 'CPE 112L', 0, 'Engineering', '', 'CPE 112', '', '', '');
+INSERT INTO classes VALUES ('Calculus C', 'MA 201', 4, 'Math', 'MA 172', '', '', '', '');
+INSERT INTO classes VALUES ('General Physics with Calculus II', 'PH 112', 3, 'Physics', 'MA 172, PH 111', 'PH 115', '', '', '');
+INSERT INTO classes VALUES ('General Physics Lab II', 'PH 115', 1, 'Physics', '', 'PH 112', '', '', '');
+INSERT INTO classes VALUES ('Intro to Linear Algebra', 'MA 244', 3, 'Math', 'MA 172', '', '', '', '');
+INSERT INTO classes VALUES ('Intro to Digital Logic ', 'EE 202', 3, 'Engineering', 'EE 100, CPE 112', '', '', '', '');
+INSERT INTO classes VALUES ('Digital Logic Design Lab', 'EE 203', 1, 'Engineering', 'EE 202', '', '', '', '');
+INSERT INTO classes VALUES ('Applied Diff Equations', 'MA 238', 3, 'Math', 'MA 172', '', 'MA 201', '', '');
+INSERT INTO classes VALUES ('Electrical Circuit Analysis I', 'EE 213 ', 3, 'Engineering', 'PH 112', '', 'MA 238, MA 244 or CHE 244 or MAE 285', '', '');
+INSERT INTO classes VALUES ('General Physics  III', 'PH 113', 3, 'Physics', 'MA 201, PH 112', 'PH 116', '', '', '');
+INSERT INTO classes VALUES ('General Physics Lab III', 'PH 116', 1, 'Physics', '', 'PH 113', '', '', '');
+INSERT INTO classes VALUES ('Computer Organization', 'CPE 221, EE 321', 3, 'Engineering', 'EE 202', '', '', '', '');
+INSERT INTO classes VALUES ('World History to 1500', 'HY103', 3, 'History', '', '', '', 'MTWR', 'SF');
+INSERT INTO classes VALUES ('World History since 1500', 'HY104', 3, 'History', '', '', '', 'MTWR', 'SF');
+INSERT INTO classes VALUES ('Art History Survey Renaissance', 'ARH 101', 3, 'Art History', '', '', '', 'MWTR', '');
+INSERT INTO classes VALUES ('ARH SURV Non-west', 'ARH 102', 3, 'Art History', '', '', '', 'MTWR', '');
+INSERT INTO classes VALUES ('Intro to Philosopy', 'PHL 101', 3, 'Philosophy', '', '', '', 'MTWRF', '');
+INSERT INTO classes VALUES ('Intro to Ethics', 'PHL202', 3, 'Philosophy', 'PHL101', '', '', 'MTWR', '');

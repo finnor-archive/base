@@ -1,0 +1,16 @@
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\bin\Release\x64\SQLite.Interop.dll
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\bin\Release\x86\SQLite.Interop.dll
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\bin\Release\Database\db
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\bin\Release\GraduationPlanningSystem.exe
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\bin\Release\GraduationPlanningSystem.pdb
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\bin\Release\System.Data.SQLite.dll
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GraduationPlanningSystem.AlreadyTakenClasses.resources
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GraduationPlanningSystem.GraduationPlanningSystem.resources
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GraduationPlanningSystem.GenerateSchedulesForm.resources
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GraduationPlanningSystem.Properties.Resources.resources
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GraduationPlanningSystem.exe
+C:\Users\Adrian\Desktop\GPS\GPS\GraduationPlanningSystem\obj\x86\Release\GraduationPlanningSystem.pdb

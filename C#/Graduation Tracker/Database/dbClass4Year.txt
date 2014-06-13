@@ -1,0 +1,85 @@
+CREATE TABLE classes
+(
+uid TEXT,
+course TEXT,
+courseNum Text,
+hours INTEGER,
+major TEXT,
+prereqs TEXT,
+coreqs TEXT,
+preco TEXT,
+days TEXT,
+semester TEXT,
+sequence INTEGER
+);
+
+INSERT INTO classes VALUES ('MA00171', 'Calculus A', 'MA 171', 4, 'Math', '', '', '', 'TR', 'SMF', 0);
+INSERT INTO classes VALUES ('MA00172', 'Calculus B', 'MA 172', 4, 'Math', 'MA00171', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('CH00121', 'General Chemistry I', 'CH 121', 3, 'Chemistry', '', 'CH00125', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('CH00125', 'General Chem Lab', 'CH 125', 1, 'Chemistry', '', 'CH00121', '', 'MTWR', 'MF', 0);
+INSERT INTO classes VALUES ('PH00111', 'General Physics', 'PH 111', 3, 'Physics', 'MA 171', 'PH00114', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('PH00114', 'General Physics Lab', 'PH 114', 1, 'Physics', '', 'PH00111', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EH00101', 'English Composition', 'EH 101', 3, 'English', '', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('EH00102', 'Freshman Composition', 'EH 102', 3, 'English', 'EH00101', '', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00100', 'Fundamentals of Engineering', 'EE 100', 3, 'Engineering', '', 'EE0100L', '', 'MW', 'SF', 0);
+INSERT INTO classes VALUES ('CPE0112', 'Intro to Comp Programming', 'CPE 112', 3, 'Engineering', '', 'CPE112L', '', 'MWTR', 'SMF', 0);
+INSERT INTO classes VALUES ('CPE112L', 'Intro to Comp Prog Lab', 'CPE 112L', 0, 'Engineering', '', 'CPE0112', '', 'TR', 'SMF', 0);
+INSERT INTO classes VALUES ('MA00201', 'Calculus C', 'MA 201', 4, 'Math', 'MA00172', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('PH00112', 'General Physics with Calculus II', 'PH 112', 3, 'Physics', 'MA00172, PH00111', 'PH00115', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('PH00115', 'General Physics Lab II', 'PH 115', 1, 'Physics', '', 'PH00112', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('MA00244', 'Intro to Linear Algebra', 'MA 244', 3, 'Math', 'MA00172', '', '', 'TR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00202', 'Intro to Digital Logic ', 'EE 202', 3, 'Engineering', 'EE00100, CPE0112', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00201', 'Digital Logic Design Lab', 'EE 203', 1, 'Engineering', 'EE00202', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('MA00238', 'Applied Diff Equations', 'MA 238', 3, 'Math', 'MA00172', '', 'MA00201', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00213', 'Electrical Circuit Analysis I', 'EE 213 ', 3, 'Engineering', 'PH00112', '', 'MA00238, MA00244', 'TR', 'SMF', 0);
+	-- prereq / coreq should be 'MA 238, MA 244 or CHE 244 or MAE 285'
+INSERT INTO classes VALUES ('PH00116', 'General Physics  III', 'PH 113', 3, 'Physics', 'MA00201, PH00112', 'PH00116', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('PH0116L', 'General Physics Lab III', 'PH 116', 1, 'Physics', '', 'PH00113', '', 'MTWR', 'SF', 0);
+INSERT INTO classes VALUES ('CPE0221', 'Computer Organization', 'CPE 221, EE 321', 3, 'Engineering', 'EE00202', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('HY00103', 'World History to 1500', 'HY 103', 3, 'History', '', '', '', 'MTWR', 'SF', 0);
+INSERT INTO classes VALUES ('HY00104', 'World History since 1500', 'HY 104', 3, 'History', '', '', '', 'MTWR', 'SF', 0);
+INSERT INTO classes VALUES ('ARH0101', 'Art History Survey Renaissance', 'ARH 101', 3, 'Art History', '', '', '', 'MWTR', 'SMF', 0);
+INSERT INTO classes VALUES ('ARH0102', 'ARH SURV Non-west', 'ARH 102', 3, 'Art History', '', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('PHL0101', 'Intro to Philosopy', 'PHL 101', 3, 'Philosophy', '', '', '', 'TR', 'SMF', 0);
+INSERT INTO classes VALUES ('PHL0202', 'Intro to Ethics', 'PHL202', 3, 'Philosophy', 'PHL101', '', '', 'MTWR', 'SF', 0);
+INSERT INTO classes VALUES ('EE00307', 'Electricity and Magnetism', 'EE 307', 3, 'Engineering', 'EE00213, EE00300, MA00238, MA00244', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00310', 'Solid State Fundamentals', 'EE 310', 3, 'Engineering', 'PH00113, MA00238', '', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00313', 'Electrical Circuit Analysis II', 'EE 313', 3, 'Engineering', 'EE00213', '', '', 'MTWR', 'SF', 0);
+INSERT INTO classes VALUES ('EE00382', 'Analytical Meth for Cont Time Sys', 'EE 382', 3, 'Engineering', 'EE00213, EE00300, MA00238, MA00244', '', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('CPE0323', 'Intro to Embedded Comp', 'CPE 323', 3, 'Computer Engineering', 'CPE0221', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('CPE0325', 'Embedded Systems Lab', 'CPE 325', 1, 'Computer Engineering', '', 'CPE0323', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00383', 'Analytical Meth for Dis Time Sys', 'EE 383', 3, 'Engineering', 'EE00382', '', '', 'TR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00384', 'Digital Signal Proc Lab', 'EE 384', 1, 'Engineering', 'EE00383', '', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00315', 'Intro to Elect Analysis and Design', 'EE 315', 3, 'Engineering', 'EE00213', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00308', 'Emag Engineering', 'EE 308', 3, 'Engineering', 'EE00307', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00316', 'Electronics Design Laboratory', 'EE 316', 1, 'Engineering', 'EE00315', '', '', 'TR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00386', 'Intro to Control and Robotic Sys', 'EE 386', 3, 'Engineering', 'EE00382', '', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00385', 'Random Signals and Noise', 'EE 385', 3, 'Engineering', 'EE00382', '', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00494', 'EE Design Projects', 'EE 494', 3, 'Engineering', 'ISE0321, EE00315, CPE0323', '', '', 'MTWR', 'S', 0);
+INSERT INTO classes VALUES ('ISE0321', 'Engineering Economy', 'ISE 321', 3, 'Industrial and Systems Eng', '', '', '', 'TR', 'SMF', 0);
+	-- prereq should be ***32 hours taken***
+INSERT INTO classes VALUES ('EE00426', 'Communication Theory', 'EE 426', 3, 'Engineering', 'EE00382', '', '', 'MTWR', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00424', 'Intro to Data Com Networks', 'EE 424', 3, 'Engineering', 'EE00383', '', '', 'MW', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00414', 'Analog and Dig Filter Design', 'EE 414', 3, 'Engineering', 'EE00315, EE00383', '', '', 'MW', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00416', 'Electonics 2', 'EE 416', 3, 'Engineering', 'EE00313, EE00315', '', '', 'MTWR', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00436', 'Digital Electronics', 'EE 436', 3, 'Engineering', 'EE00202, EE00315', '', '', 'MTWR', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00422', 'Advanced Logic Design', 'EE 422', 3, 'Engineering', 'EE00202, EE00315', 'EE0422L', '', 'MW', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00427', 'VLSI Design', 'EE 427', 3, 'Engineering', 'EE00202, EE00315', 'EE0427L', '', 'MTWR', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00451', 'Optoelectronics', 'EE 451', 3, 'Engineering', 'EE00315', '', 'EE00307', 'MW', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00454', 'Optical Fiber Comm', 'EE 454', 3, 'Engineering', 'EE00307, EE00382', '', '', 'MTWR', 'SMF', 1);
+INSERT INTO classes VALUES ('EE00453', 'Laser Systems', 'EE 453', 3, 'Engineering', 'EE00307', '', '', 'MTWR', 'SMF', 1);
+INSERT INTO classes VALUES ('CPE0353', 'Software Design and Eng', 'CPE 353', 3, 'Computer Engineering', 'CPE0212', '', '', 'MTWR', 'F', 1);
+INSERT INTO classes VALUES ('CPE0453', 'Senior Software Studio', 'CPE 453', 3, 'Computer Engineering', 'CPE0353', '', '', 'MTWR', 'S', 1);
+INSERT INTO classes VALUES ('EE0100L', 'EE 100 Lab', 'EE 100L', 0, 'Electrical Engineering', '', 'EE00100', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('EE0427L', 'VLSI Design', 'EE 427L', 0, 'Engineering', '', 'EE00427', '', 'TR', 'SMF', 1);
+INSERT INTO classes VALUES ('EE0422L', 'Ad Logic Design Lab', 'EE 422L', 0, 'Engineering', '', 'EE00422', '', 'MW', 'SMF', 1);
+INSERT INTO classes VALUES ('CPE0212', 'Intro to Software Engineering', 'EE 212, CPE 212', 4, 'Computer Engineering', 'CPE0112', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('EE00214', 'Electronic Measurement Lab', 'EE214', 1, 'Engineering', 'EE00213', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('ARH0300', 'Italian Art', 'ARH 300', 3, 'Art', '', '', '', 'TR', 'SMF', 0);
+INSERT INTO classes VALUES ('ARH0301', 'Ancient Greek Art', 'ARH 301', 3, 'Art', 'ARH00101', '', '', 'MTWR', 'SMF', 0);
+INSERT INTO classes VALUES ('HY00101', 'Western Civ', 'HY 101', 3, 'History', '', '', '', 'MW', 'SMF', 0);
+INSERT INTO classes VALUES ('HY00102', 'Western Civ II', 'HY 102', 3, 'History', 'HY00101', '', '', 'MW', 'SMF', 0);
+
+
+
+

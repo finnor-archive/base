@@ -1,0 +1,18 @@
+C:\Users\SmealCS\Documents\ClassForm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SmealCS\Documents\ClassForm\obj\x86\Debug\school_form.Form1.resources
+C:\Users\SmealCS\Documents\ClassForm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SmealCS\Documents\ClassForm\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\SmealCS\Documents\ClassForm\obj\x86\Debug\school_form.Properties.Resources.resources
+C:\Users\SmealCS\Documents\ClassForm\bin\Debug\school form.exe
+C:\Users\SmealCS\Documents\ClassForm\bin\Debug\school form.pdb
+C:\Users\SmealCS\Documents\ClassForm\obj\x86\Debug\school form.exe
+C:\Users\SmealCS\Documents\ClassForm\obj\x86\Debug\school form.pdb
+C:\Users\shaub\Desktop\ClassForm\obj\x86\Debug\school form.exe
+C:\Users\shaub\Desktop\ClassForm\obj\x86\Debug\school form.pdb
+C:\Users\shaub\Desktop\ClassForm\bin\Debug\school form.exe
+C:\Users\shaub\Desktop\ClassForm\bin\Debug\school form.pdb
+C:\Users\shaub\Desktop\ClassForm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\shaub\Desktop\ClassForm\obj\x86\Debug\school_form.Form1.resources
+C:\Users\shaub\Desktop\ClassForm\obj\x86\Debug\school_form.Properties.Resources.resources
+C:\Users\shaub\Desktop\ClassForm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\shaub\Desktop\ClassForm\obj\x86\Debug\GenerateResource.write.1.tlog

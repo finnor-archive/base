@@ -1,0 +1,32 @@
+﻿<TabItem x:Class="GraduationPlanningSystem.DegreeControl"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+mc:Ignorable="d"
+d:DesignHeight="1500" d:DesignWidth="300">
+
+
+    <StackPanel Orientation="Vertical">
+
+        <StackPanel Orientation="Horizontal">
+            <Button Name="btnMarkFailed" Click="btnMarkFailed_Click" Content="Mark Failed" Margin="5"/>
+            <Button Name="btnMarkPassed" Click="btnMarkPassed_Click" Content="Mark Passed" Margin="5" />
+            <Button Name="btnRemoveClass" Click="btnRemoveClass_Click" Content="Remove" Margin="5"/>
+            <Button Name="btnPreviouslyTakenClass" Click="btnPreviouslyTakenClass_Click"  Content="Taken" Margin="5"/>
+        </StackPanel>
+
+        <ScrollViewer Height="350" CanContentScroll="True"
+VerticalScrollBarVisibility="Visible"
+                  VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" Name="spMain">
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </StackPanel>
+
+
+
+</TabItem>
+        

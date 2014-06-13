@@ -1,0 +1,7 @@
+if (comboDefaulSchedules.SelectedIndex == 0)
+            {
+                Degree loadDegree = XMLSerializer.DeserializeXMLToDegree("C:\\Default.gps");
+
+                GenerateSchedulesForm form = new GenerateSchedulesForm(coursesTaken, "EE", loadDegree, db);
+                form.Show();
+            }
