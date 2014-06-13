@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>User</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>780</x>
+      <y>0</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Network</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>0</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Profile</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>400</x>
+      <y>0</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Food Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>590</x>
+      <y>0</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Security</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>60</x>
+      <y>30</y>
+      <w>21</w>
+      <h>31</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+
+</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to
+//define the element's behavior.
+//
+//Example:  Change the line
+//  y = y + textHeight();
+//to
+//  y = y + 2 * textHeight();
+//and observe the element preview.
+
+
+drawCircle(10, 10, 10);
+
+</custom_code>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>110</x>
+      <y>160</y>
+      <w>100</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Enter Pass</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>620</x>
+      <y>160</y>
+      <w>100</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Verify Pass</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>60</x>
+      <y>400</y>
+      <w>100</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>ChooseAction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>951</w>
+      <h>761</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+
+
+</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to
+//define the element's behavior.
+//
+//Example:  Change the line
+//  y = y + textHeight();
+//to
+//  y = y + 2 * textHeight();
+//and observe the element preview.
+
+int y=textHeight();
+
+drawRectangle(0,0,width,800);
+drawRectangle(0,0,width/5,800);
+drawRectangle(width/5,0,width/5,800);
+drawRectangle(2*width/5,0,width/5,800);
+drawRectangle(3*width/5,0,width/5,800);
+
+</custom_code>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>40</x>
+      <y>20</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;70;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>180</x>
+      <y>690</y>
+      <w>21</w>
+      <h>31</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+bg=black
+</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to
+//define the element's behavior.
+//
+//Example:  Change the line
+//  y = y + textHeight();
+//to
+//  y = y + 2 * textHeight();
+//and observe the element preview.
+
+
+drawCircle(10, 10, 10);
+
+</custom_code>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Decision</type>
+    <coordinates>
+      <x>50</x>
+      <y>90</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>60</x>
+      <y>80</y>
+      <w>132</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=[not logged in]</panel_attributes>
+    <additional_attributes>100;80;100;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>180</x>
+      <y>140</y>
+      <w>460</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>440;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Decision</type>
+    <coordinates>
+      <x>650</x>
+      <y>250</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>640</x>
+      <y>150</y>
+      <w>50</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;100;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>20</x>
+      <y>100</y>
+      <w>92</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=[Logged In]
+</panel_attributes>
+    <additional_attributes>50;300;50;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>130</x>
+      <y>150</y>
+      <w>540</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=[bad password]</panel_attributes>
+    <additional_attributes>30;30;30;120;520;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>120</x>
+      <y>260</y>
+      <w>612</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=[Password Verified]</panel_attributes>
+    <additional_attributes>30;140;30;80;550;80;550;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>60</x>
+      <y>540</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Do Action</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>80</x>
+      <y>470</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;70;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Decision</type>
+    <coordinates>
+      <x>90</x>
+      <y>460</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>100</x>
+      <y>450</y>
+      <w>132</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=[Exit Chosen]</panel_attributes>
+    <additional_attributes>90;240;90;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>80</x>
+      <y>390</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;70;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>0</x>
+      <y>80</y>
+      <w>172</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=[Action Complete]</panel_attributes>
+    <additional_attributes>50;30;30;30;30;550;110;550;110;500</additional_attributes>
+  </element>
+</diagram>

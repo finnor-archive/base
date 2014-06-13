@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.3">
+  <zoom_level>8</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>240</x>
+      <y>424</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Launch Screen
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>456</x>
+      <y>392</y>
+      <w>672</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>User Home
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>328</x>
+      <y>392</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+User Login
+</panel_attributes>
+    <additional_attributes>128;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>448</x>
+      <y>552</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>User Profile
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>328</x>
+      <y>424</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+User Logout / Back</panel_attributes>
+    <additional_attributes>24;40;128;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>224</x>
+      <y>448</y>
+      <w>122</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Create Account</panel_attributes>
+    <additional_attributes>64;104;64;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>448</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+View / Update Profile</panel_attributes>
+    <additional_attributes>80;104;80;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>232</x>
+      <y>552</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Account Creation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>104</x>
+      <y>432</y>
+      <w>152</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Finish / Back
+</panel_attributes>
+    <additional_attributes>136;24;56;24;56;144;128;144</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>512</x>
+      <y>448</y>
+      <w>70</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Back</panel_attributes>
+    <additional_attributes>40;24;40;104</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>464</x>
+      <y>296</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Search For Food
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>712</x>
+      <y>296</y>
+      <w>104</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Search For Exercise
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>432</x>
+      <y>304</y>
+      <w>94</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Find Food</panel_attributes>
+    <additional_attributes>48;24;48;88</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>504</x>
+      <y>304</y>
+      <w>70</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Back
+</panel_attributes>
+    <additional_attributes>40;88;40;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>752</x>
+      <y>304</y>
+      <w>70</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Back
+</panel_attributes>
+    <additional_attributes>40;88;40;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>680</x>
+      <y>304</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Find Exercise</panel_attributes>
+    <additional_attributes>56;24;56;88</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>832</x>
+      <y>296</y>
+      <w>208</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Modify Log</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>880</x>
+      <y>304</y>
+      <w>70</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Back
+</panel_attributes>
+    <additional_attributes>40;88;40;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>808</x>
+      <y>304</y>
+      <w>100</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add to Log</panel_attributes>
+    <additional_attributes>56;24;56;88</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>760</x>
+      <y>224</y>
+      <w>104</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add Exercise</panel_attributes>
+    <additional_attributes>24;72;24;40;88;40;88;72</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>728</x>
+      <y>200</y>
+      <w>168</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add to Log / Back
+</panel_attributes>
+    <additional_attributes>152;96;152;40;24;40;24;96</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>504</x>
+      <y>56</y>
+      <w>488</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add Food</panel_attributes>
+    <additional_attributes>24;240;24;40;472;40;472;240</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>464</x>
+      <y>24</y>
+      <w>560</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add to Log / Back</panel_attributes>
+    <additional_attributes>544;272;544;40;24;40;24;272</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>576</x>
+      <y>296</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Search For Fav Food</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>536</x>
+      <y>304</y>
+      <w>120</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Find Fav. Food</panel_attributes>
+    <additional_attributes>64;24;64;88</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>616</x>
+      <y>304</y>
+      <w>70</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Back
+</panel_attributes>
+    <additional_attributes>40;88;40;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>648</x>
+      <y>160</y>
+      <w>272</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add Fav Food</panel_attributes>
+    <additional_attributes>24;136;24;40;256;40;256;136</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>584</x>
+      <y>120</y>
+      <w>376</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add to Log / Back</panel_attributes>
+    <additional_attributes>360;176;360;40;24;40;24;176</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>976</x>
+      <y>288</y>
+      <w>156</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Remove from Log</panel_attributes>
+    <additional_attributes>24;40;24;72;96;72;96;24;64;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>624</x>
+      <y>552</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>User Goal</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>576</x>
+      <y>448</y>
+      <w>124</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+View / Edit Goal</panel_attributes>
+    <additional_attributes>64;104;64;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>672</x>
+      <y>448</y>
+      <w>70</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Back
+</panel_attributes>
+    <additional_attributes>40;24;40;104</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>136</x>
+      <y>216</y>
+      <w>120</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Start Program</panel_attributes>
+    <additional_attributes>104;216;64;216;64;24;104;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>256</x>
+      <y>232</y>
+      <w>146</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Quit Program / Back</panel_attributes>
+    <additional_attributes>80;24;80;192</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>240</x>
+      <y>208</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Not Running
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>792</x>
+      <y>552</y>
+      <w>136</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>User Friends</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>744</x>
+      <y>448</y>
+      <w>138</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+View / Edit Friends</panel_attributes>
+    <additional_attributes>72;104;72;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>856</x>
+      <y>448</y>
+      <w>70</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Back
+</panel_attributes>
+    <additional_attributes>40;24;40;104</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>976</x>
+      <y>552</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>User Data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>888</x>
+      <y>448</y>
+      <w>218</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Add Food, Exercise, Favorite, Alert</panel_attributes>
+    <additional_attributes>112;104;112;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1096</x>
+      <y>424</y>
+      <w>94</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+ Back
+</panel_attributes>
+    <additional_attributes>32;24;64;24;64;152;24;152</additional_attributes>
+  </element>
+</diagram>
