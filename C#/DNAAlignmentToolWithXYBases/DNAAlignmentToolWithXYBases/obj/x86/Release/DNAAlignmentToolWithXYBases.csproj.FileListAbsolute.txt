@@ -1,0 +1,7 @@
+C:\Users\Adrian\documents\visual studio 2010\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\bin\Release\DNAAlignmentToolWithXYBases.exe
+C:\Users\Adrian\documents\visual studio 2010\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\bin\Release\DNAAlignmentToolWithXYBases.pdb
+C:\Users\Adrian\documents\visual studio 2010\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Release\DNAAlignmentToolWithXYBases.MainForm.resources
+C:\Users\Adrian\documents\visual studio 2010\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Release\DNAAlignmentToolWithXYBases.Properties.Resources.resources
+C:\Users\Adrian\documents\visual studio 2010\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Release\DNAAlignmentToolWithXYBases.csproj.GenerateResource.Cache
+C:\Users\Adrian\documents\visual studio 2010\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Release\DNAAlignmentToolWithXYBases.exe
+C:\Users\Adrian\documents\visual studio 2010\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Release\DNAAlignmentToolWithXYBases.pdb
