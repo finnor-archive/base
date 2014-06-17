@@ -5,25 +5,59 @@ using System.Text;
 
 namespace DNAAlignmentToolWithXYBases
 {
-
-    static class SequenceAlignment
+    class SequenceAlignment
     {
-        public static String[] alignSequences(String seq1, String seq2, int mScore, int mmScore, int gapScore)
+        private int similiarityScore;
+        private String seq1, seq2;
+        private int nMScore, nMmScore, nGapScore, eMScore, eMmScore, eGapScore;
+        private int[,] alignmentTable, pathTaken;
+
+        public SequenceAlignment(String inSeq1, String inSeq2, int inNMScore, int inNMmScore, int inNGapScore, int inEMScore, int inEMmScore, int inEGapScore)
         {
-            int[,] alignmentTable = new int[seq1.Length + 1, seq2.Length + 1];
-            int[,] pathTaken = new int[seq1.Length, seq2.Length];
+            seq1 = inSeq1;
+            seq2 = inSeq2;
+
+            //test legality of sequence
+            for (int i = 0; i < seq1.Length; i++)
+            {
+                if (!(isNatural(seq1[i]) || isExotic(seq1[i])))
+                    throw (new Exception("Illegal input in sequence 1"));
+            }
+            for (int i = 0; i < seq2.Length; i++)
+            {
+                if (!(isNatural(seq2[i]) || isExotic(seq2[i])))
+                    throw (new Exception("Illegal input in sequence 2"));
+            }
+
+            nMScore = inNMScore;
+            nMmScore = inNMmScore;
+            nGapScore = inNGapScore;
+            eMScore = inEMScore;
+            eMmScore = inEMmScore;
+            eGapScore = inEGapScore;
+        }
+
+        public String[] alignSequences()
+        {
+            alignmentTable = new int[seq1.Length + 1, seq2.Length + 1];
+            pathTaken = new int[seq1.Length, seq2.Length];
             
             //build and fill the tables to be used for dynamic programming
-            buildTables(seq1, seq2, mScore, mmScore, gapScore, alignmentTable, pathTaken);
+            buildTables();
 
             //build and return the aligned sequences from the tables
-            return buildSequences(seq1, seq2, pathTaken);
+            return buildSequences();
 
         }
 
+        //accessor for score
+        public int getScore()
+        {
+            return similiarityScore;
+        }
 
         //The global alignment algorithm is uses dynamic programming, this routine builds and fills the tables necessary
-        private static void buildTables(String seq1, String seq2, int mScore, int mmScore, int gapScore, int[,] alignmentTable, int[,] pathTaken)
+        private void buildTables()
         {
             int nonGapScore;
             int bestPath;
@@ -31,10 +65,20 @@ namespace DNAAlignmentToolWithXYBases
             int seq2Gap;
 
             //fills the all gap row and column
-            for(int i=0; i<seq1.Length-1; i++)
-                alignmentTable[i,0] = i*-2;
-            for(int j=0; j<seq2.Length-1; j++)
-                alignmentTable[0,j] = j*-2;
+            for (int i = 1; i<seq1.Length; i++)
+            {
+                if (isNatural(seq1[i-1]))
+                    alignmentTable[i, 0] = alignmentTable[i - 1, 0] - 2;
+                else if (isExotic(seq1[i-1]))
+                    alignmentTable[i, 0] = alignmentTable[i - 1, 0] - 3;
+            }
+            for (int j = 1; j<seq2.Length; j++)
+            {
+                if (isNatural(seq2[j-1]))
+                    alignmentTable[0, j] = alignmentTable[0, j-1] - 2;
+                else if (isExotic(seq2[j-1]))
+                    alignmentTable[0, j] = alignmentTable[0, j-1] - 3;
+            }
 
 
             //loops across the table of size seq1.length+1 x seq2.length+1
@@ -42,16 +86,34 @@ namespace DNAAlignmentToolWithXYBases
             {
                 for (int j = 1; j <= seq2.Length; j++)
                 {
-                    //determines the score if a gap isn't used
-                    nonGapScore = alignmentTable[i-1,j-1] + compareNucleotides(seq1[i - 1], seq2[j - 1], mScore, mmScore);
-                    
-                    //determines the score if a gap in either sequence is used
-                    seq1Gap = alignmentTable[i, j-1] + gapScore;
-                    seq2Gap = alignmentTable[i-1,j] + gapScore;
+                    if (isExotic(seq1[i - 1]) || isExotic(seq2[j - 1]))         //if either current base is exotic, then exotic scores used
+                    {
 
-                    //determine the highest scoring path from the scores
-                    bestPath = findBestPath(seq1Gap, seq2Gap, nonGapScore);
-                    pathTaken[i-1,j-1] = bestPath;
+
+                        //determines the score if a gap isn't used
+                        nonGapScore = alignmentTable[i - 1, j - 1] + compareNucleotides(seq1[i - 1], seq2[j - 1], eMScore, eMmScore);
+
+                        //determines the score if a gap in either sequence is used
+                        seq1Gap = alignmentTable[i, j - 1] + eGapScore;
+                        seq2Gap = alignmentTable[i - 1, j] + eGapScore;
+
+                        //determine the highest scoring path from the scores
+                        bestPath = findBestPath(seq1Gap, seq2Gap, nonGapScore);
+                        pathTaken[i - 1, j - 1] = bestPath;
+                    }
+                    else                                                        //else both bases are natural, then exotic scores used
+                    {
+                        //determines the score if a gap isn't used
+                        nonGapScore = alignmentTable[i - 1, j - 1] + compareNucleotides(seq1[i - 1], seq2[j - 1], nMScore, nMmScore);
+
+                        //determines the score if a gap in either sequence is used
+                        seq1Gap = alignmentTable[i, j - 1] + nGapScore;
+                        seq2Gap = alignmentTable[i - 1, j] + nGapScore;
+
+                        //determine the highest scoring path from the scores
+                        bestPath = findBestPath(seq1Gap, seq2Gap, nonGapScore);
+                        pathTaken[i - 1, j - 1] = bestPath;
+                    }
 
                     //record the score
                     if (bestPath == 1)
@@ -62,10 +124,40 @@ namespace DNAAlignmentToolWithXYBases
                         alignmentTable[i,j] = seq2Gap;
                 }
             }
+
+            similiarityScore = alignmentTable[seq1.Length, seq2.Length];
+
+        }
+
+        //determines whether the base is one of the natural ones: A ,T ,C , G 
+        private bool isNatural(char base0)
+        {
+            if (base0=='a' || base0=='A')
+                return true;
+            else if (base0=='t' || base0=='T')
+                return true;
+            else if (base0=='c' || base0=='C')
+                return true;
+            else if (base0=='g' || base0=='G')
+                return true;
+            else 
+                return false;
+        }
+
+
+        //determines whether the base is one of the natural ones: A ,T ,C , G 
+        private static bool isExotic(char base0)
+        {
+            if (base0 == 'x' || base0 == 'X')
+                return true;
+            else if (base0 == 'Y' || base0 == 'Y')
+                return true;
+            else
+                return false;
         }
 
         //compares the current nucleotide and returns the appropriate score
-        private static int compareNucleotides(char base1, char base2, int mScore, int mmScore)
+        private int compareNucleotides(char base1, char base2, int mScore, int mmScore)
         {
             if (base1.CompareTo(base2) == 0)
                 return mScore;
@@ -74,7 +166,7 @@ namespace DNAAlignmentToolWithXYBases
         }
 
         //determines the highest score out of 3 possibilities
-        private static int findBestPath(int seq1Gap, int seq2Gap, int noGap)
+        private int findBestPath(int seq1Gap, int seq2Gap, int noGap)
         {
             if ((noGap >= seq1Gap) && (noGap >= seq2Gap))       //no gap
                 return 1;
@@ -85,7 +177,7 @@ namespace DNAAlignmentToolWithXYBases
         }
 
         //builds the aligned sequences
-        private static String[] buildSequences(String seq1, String seq2, int[,] pathTaken)
+        private String[] buildSequences()
         {
             int i = seq1.Length-1;
             int j = seq2.Length-1;

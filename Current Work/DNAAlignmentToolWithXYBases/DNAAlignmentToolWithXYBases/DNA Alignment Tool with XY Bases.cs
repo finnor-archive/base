@@ -21,13 +21,24 @@ namespace DNAAlignmentToolWithXYBases
         {
             String seq1 = Sequence1.Text;
             String seq2 = Sequence2.Text;
-            int mScore = Convert.ToInt32(MatchScore.Text);
-            int mmScore = Convert.ToInt32(MismatchScore.Text);
-            int gapScore = Convert.ToInt32(GapScore.Text);
-            String[] outputSeqs = SequenceAlignment.alignSequences(seq1, seq2, mScore, mmScore, gapScore);
-            OutputSequence1.Text = outputSeqs[0];
-            OutputSequence2.Text = outputSeqs[1];
-
+            int nMScore = Convert.ToInt32(NaturalMatchScore.Text);
+            int nMmScore = Convert.ToInt32(NaturalMismatchScore.Text);
+            int nGapScore = Convert.ToInt32(NaturalGapScore.Text);
+            int eMScore = Convert.ToInt32(ExoticMatchScore.Text);
+            int eMmScore = Convert.ToInt32(ExoticMismatchScore.Text);
+            int eGapScore = Convert.ToInt32(ExoticGapScore.Text);
+            try
+            {
+                SequenceAlignment alignment = new SequenceAlignment(seq1, seq2, nMScore, nMmScore, nGapScore, eMScore, eMmScore, eGapScore);
+                String[] outputSeqs = alignment.alignSequences();
+                OutputSequence1.Text = outputSeqs[0];
+                OutputSequence2.Text = outputSeqs[1];
+                SimilarityScore.Text = (alignment.getScore()).ToString();
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }   
         }
 
         private void MainForm_Load(object sender, EventArgs e)

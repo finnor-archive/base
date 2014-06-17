@@ -1,8 +1,6 @@
 Current
-	Allow for different match, mismatch, and gap score at XY bases
-
-Backlog
 	Allow for appropriate formats of DNA sequences in importation and exporting
+Backlog
 	Add Local alignments
 	Allow expansion and reduction of a local alignment
 	Compute a chart to display changes in score with expansion/reduction
