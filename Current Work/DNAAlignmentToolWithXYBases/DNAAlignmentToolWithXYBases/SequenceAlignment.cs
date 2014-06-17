@@ -132,16 +132,43 @@ namespace DNAAlignmentToolWithXYBases
         //determines whether the base is one of the natural ones: A ,T ,C , G 
         private bool isNatural(char base0)
         {
-            if (base0=='a' || base0=='A')
-                return true;
-            else if (base0=='t' || base0=='T')
-                return true;
-            else if (base0=='c' || base0=='C')
-                return true;
-            else if (base0=='g' || base0=='G')
-                return true;
-            else 
-                return false;
+            switch(Char.ToLower(base0))
+            {
+                case ('a'):             //Adenine
+                    return true;
+                case ('t'):             //Thymine
+                    return true;
+                case ('c'):             //Cytosine
+                    return true;
+                case ('g'):             //Guanine
+                    return true;
+                case ('u'):             //Uracil
+                    return true;
+                case ('r'):             //Purine (A or G)
+                    return true;
+                case ('y'):             //Pyrimidine (C, T, or U)
+                    return true;
+                case ('k'):             //Ketones (G, T, or U)
+                    return true;
+                case ('m'):             //aMino groups (A or C)
+                    return true;
+                case ('s'):             //Strong interaction (C or G)
+                    return true;
+                case ('w'):             //Weak interaction (A or T)
+                    return true;
+                case ('b'):             //B comes after A (C, G, T, or U)
+                    return true;
+                case ('d'):             //D comes after C (A, G, T, or U)
+                    return true;
+                case ('h'):             //H comes after G (A, C, T, or U)
+                    return true;
+                case ('v'):             //V comes after U  (A, C, or G)
+                    return true;
+                case ('n'):             //Nucleic acid  (A, C, G, T, or U)
+                    return true;
+                default:
+                    return false;
+            }
         }
 
 

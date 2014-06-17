@@ -54,6 +54,12 @@
             this.ExoticGapScore = new System.Windows.Forms.TextBox();
             this.ExoticMismatchScore = new System.Windows.Forms.TextBox();
             this.ExoticMatchScore = new System.Windows.Forms.TextBox();
+            this.Format1Lbl = new System.Windows.Forms.Label();
+            this.Format2Lbl = new System.Windows.Forms.Label();
+            this.FormatOLbl = new System.Windows.Forms.Label();
+            this.FormatBox1 = new System.Windows.Forms.ComboBox();
+            this.FormatBox2 = new System.Windows.Forms.ComboBox();
+            this.FormatBoxO = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // Sequence1
@@ -282,11 +288,80 @@
             this.ExoticMatchScore.TabIndex = 20;
             this.ExoticMatchScore.Text = "7";
             // 
+            // Format1Lbl
+            // 
+            this.Format1Lbl.AutoSize = true;
+            this.Format1Lbl.Location = new System.Drawing.Point(293, 262);
+            this.Format1Lbl.Name = "Format1Lbl";
+            this.Format1Lbl.Size = new System.Drawing.Size(39, 13);
+            this.Format1Lbl.TabIndex = 28;
+            this.Format1Lbl.Text = "Format";
+            // 
+            // Format2Lbl
+            // 
+            this.Format2Lbl.AutoSize = true;
+            this.Format2Lbl.Location = new System.Drawing.Point(623, 262);
+            this.Format2Lbl.Name = "Format2Lbl";
+            this.Format2Lbl.Size = new System.Drawing.Size(39, 13);
+            this.Format2Lbl.TabIndex = 29;
+            this.Format2Lbl.Text = "Format";
+            // 
+            // FormatOLbl
+            // 
+            this.FormatOLbl.AutoSize = true;
+            this.FormatOLbl.Location = new System.Drawing.Point(535, 420);
+            this.FormatOLbl.Name = "FormatOLbl";
+            this.FormatOLbl.Size = new System.Drawing.Size(39, 13);
+            this.FormatOLbl.TabIndex = 31;
+            this.FormatOLbl.Text = "Format";
+            // 
+            // FormatBox1
+            // 
+            this.FormatBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FormatBox1.FormattingEnabled = true;
+            this.FormatBox1.Items.AddRange(new object[] {
+            "Raw",
+            "FASTA"});
+            this.FormatBox1.Location = new System.Drawing.Point(296, 277);
+            this.FormatBox1.Name = "FormatBox1";
+            this.FormatBox1.Size = new System.Drawing.Size(79, 21);
+            this.FormatBox1.TabIndex = 32;
+            // 
+            // FormatBox2
+            // 
+            this.FormatBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FormatBox2.FormattingEnabled = true;
+            this.FormatBox2.Items.AddRange(new object[] {
+            "Raw",
+            "FASTA"});
+            this.FormatBox2.Location = new System.Drawing.Point(626, 278);
+            this.FormatBox2.Name = "FormatBox2";
+            this.FormatBox2.Size = new System.Drawing.Size(79, 21);
+            this.FormatBox2.TabIndex = 33;
+            // 
+            // FormatBoxO
+            // 
+            this.FormatBoxO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FormatBoxO.FormattingEnabled = true;
+            this.FormatBoxO.Items.AddRange(new object[] {
+            "Raw",
+            "FASTA"});
+            this.FormatBoxO.Location = new System.Drawing.Point(538, 435);
+            this.FormatBoxO.Name = "FormatBoxO";
+            this.FormatBoxO.Size = new System.Drawing.Size(79, 21);
+            this.FormatBoxO.TabIndex = 34;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(988, 481);
+            this.Controls.Add(this.FormatBoxO);
+            this.Controls.Add(this.FormatBox2);
+            this.Controls.Add(this.FormatBox1);
+            this.Controls.Add(this.FormatOLbl);
+            this.Controls.Add(this.Format2Lbl);
+            this.Controls.Add(this.Format1Lbl);
             this.Controls.Add(this.ExoticGapScoreLbl);
             this.Controls.Add(this.ExoticMismatchScoreLbl);
             this.Controls.Add(this.ExoticMatchScoreLbl);
@@ -349,6 +424,12 @@
         private System.Windows.Forms.TextBox ExoticGapScore;
         private System.Windows.Forms.TextBox ExoticMismatchScore;
         private System.Windows.Forms.TextBox ExoticMatchScore;
+        private System.Windows.Forms.Label Format1Lbl;
+        private System.Windows.Forms.Label Format2Lbl;
+        private System.Windows.Forms.Label FormatOLbl;
+        private System.Windows.Forms.ComboBox FormatBox1;
+        private System.Windows.Forms.ComboBox FormatBox2;
+        private System.Windows.Forms.ComboBox FormatBoxO;
     }
 }
 

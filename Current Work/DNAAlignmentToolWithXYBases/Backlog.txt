@@ -1,5 +1,13 @@
 Current
 	Allow for appropriate formats of DNA sequences in importation and exporting
+		Incomplete
+			EMBL
+			GCG
+			GenBank
+			IG
+		Completed
+			Raw
+			FASTA
 Backlog
 	Add Local alignments
 	Allow expansion and reduction of a local alignment
