@@ -1,10 +1,9 @@
 Current work:
-	Implement rules of game
-	Connect 0s
-
+	Allow for marking mines
+	Correct mines shown as "..."
 
 Backlog:
+	First click shouldn't be mine
 	Eliminate spaces
-	Allow for marking mines
 	Allow for right+left clicking
 	Implement logic to solve

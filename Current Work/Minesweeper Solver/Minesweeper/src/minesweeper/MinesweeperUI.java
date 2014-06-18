@@ -9,6 +9,7 @@ package minesweeper;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import java.util.Stack;
 /**
  *
  * @author Adrian
@@ -130,6 +131,15 @@ public class MinesweeperUI extends javax.swing.JFrame {
     
     private void StartGameBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartGameBtnActionPerformed
         // TODO add your handling code here:
+        for (int i=0; i<Board.length; i++)
+        {
+            for (int j=0; j<Board[0].length; j++)
+            {
+                Board[i][j].setEnabled(true);  
+                Board[i][j].setText("");
+            }
+        }
+        game = new Minesweeper();
     }//GEN-LAST:event_StartGameBtnActionPerformed
     
     
@@ -199,9 +209,138 @@ public class MinesweeperUI extends javax.swing.JFrame {
         {
             String valueOfCell;
             MinesweeperButton cell = (MinesweeperButton) ae.getSource();
+            MinesweeperButton tempCell;
             valueOfCell = game.clickCell(cell.x,cell.y);
             cell.setText(valueOfCell);
             cell.setEnabled(false);
+            if (valueOfCell.equals("x"))
+            {
+                for (int i=0; i<Board.length; i++)
+                {
+                    for (int j=0; j<Board[0].length; j++)
+                    {
+                        Board[i][j].setEnabled(false);  
+                        Board[i][j].setText(game.clickCell(i, j));
+                    }
+                }
+                Rule.setText("Game Over!");
+            }
+            else if ((valueOfCell.equals("0")))
+            {
+                boolean[][] visitedTable = new boolean[Board.length][Board[0].length];
+                Stack<MinesweeperButton> traversal = new Stack();
+                traversal.push(cell);
+                visitedTable[cell.x][cell.y] = true;
+                while(!traversal.isEmpty())
+                {
+                    cell = traversal.pop();
+                    
+                    if(cell.x>0)                
+                    {
+                        if (cell.y>0)                                       //top-left
+                        {
+                            tempCell = Board[cell.x-1][cell.y-1];
+                            if (visitedTable[tempCell.x][tempCell.y]==false)
+                            {
+                                valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                                tempCell.setText(valueOfCell);
+                                tempCell.setEnabled(false);
+                                visitedTable[tempCell.x][tempCell.y]=true;
+                                if ((valueOfCell.equals("0")))
+                                    traversal.push(tempCell);
+                            }
+                        }
+                        if (cell.y<29)                                      //bottom-left
+                        {
+                            tempCell = Board[cell.x-1][cell.y+1];
+                            if (visitedTable[tempCell.x][tempCell.y]==false)
+                            {
+                                valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                                tempCell.setText(valueOfCell);
+                                tempCell.setEnabled(false);
+                                visitedTable[tempCell.x][tempCell.y]=true;
+                                if ((valueOfCell.equals("0")))
+                                    traversal.push(tempCell);
+                            }
+                        }
+                        tempCell = Board[cell.x-1][cell.y];                               //left
+                        if (visitedTable[tempCell.x][tempCell.y]==false)
+                        {
+                            valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                            tempCell.setText(valueOfCell);
+                            tempCell.setEnabled(false);
+                            visitedTable[tempCell.x][tempCell.y]=true;
+                            if ((valueOfCell.equals("0")))
+                                traversal.push(tempCell);
+                        }
+                    }
+                    if (cell.x<15)
+                    {
+                        if (cell.y>0)                                       //top-right
+                        {
+                            tempCell = Board[cell.x+1][cell.y-1];
+                            if (visitedTable[tempCell.x][tempCell.y]==false)
+                            {
+                                valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                                tempCell.setText(valueOfCell);
+                                tempCell.setEnabled(false);
+                                visitedTable[tempCell.x][tempCell.y]=true;
+                                if ((valueOfCell.equals("0")))
+                                    traversal.push(tempCell);
+                            }
+                        }
+                        if (cell.y<15)                                      //bottom-right
+                        {
+                            tempCell = Board[cell.x+1][cell.y+1];
+                            if (visitedTable[tempCell.x][tempCell.y]==false)
+                            {
+                                valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                                tempCell.setText(valueOfCell);
+                                tempCell.setEnabled(false);
+                                visitedTable[tempCell.x][tempCell.y]=true;
+                                if ((valueOfCell.equals("0")))
+                                    traversal.push(tempCell);
+                            }
+                        }
+                        tempCell = Board[cell.x+1][cell.y];                               //right
+                        if (visitedTable[tempCell.x][tempCell.y]==false)
+                        {
+                            valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                            tempCell.setText(valueOfCell);
+                            tempCell.setEnabled(false);
+                            visitedTable[tempCell.x][tempCell.y]=true;
+                            if ((valueOfCell.equals("0")))
+                                traversal.push(tempCell);
+                        }
+                    }
+                    if (cell.y>0)                                       //top
+                    {
+                        tempCell = Board[cell.x][cell.y-1];
+                        if (visitedTable[tempCell.x][tempCell.y]==false)
+                        {
+                            valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                            tempCell.setText(valueOfCell);
+                            tempCell.setEnabled(false);
+                            visitedTable[tempCell.x][tempCell.y]=true;
+                            if ((valueOfCell.equals("0")))
+                                traversal.push(tempCell);
+                        }
+                    }
+                    if (cell.y<29)                                      //bottom
+                    {
+                        tempCell = Board[cell.x][cell.y+1];
+                        if (visitedTable[tempCell.x][tempCell.y]==false)
+                        {
+                            valueOfCell = game.clickCell(tempCell.x,tempCell.y);
+                            tempCell.setText(valueOfCell);
+                            tempCell.setEnabled(false);
+                            visitedTable[tempCell.x][tempCell.y]=true;
+                            if ((valueOfCell.equals("0")))
+                                traversal.push(tempCell);
+                        }
+                    }
+                }
+            }
         }
     };
     
