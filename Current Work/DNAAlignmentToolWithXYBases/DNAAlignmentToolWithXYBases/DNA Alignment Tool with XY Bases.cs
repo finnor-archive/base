@@ -22,7 +22,11 @@ namespace DNAAlignmentToolWithXYBases
         private void alignBtn_Click(object sender, EventArgs e)
         {
             String format1 = (String) FormatBox1.SelectedItem;
+            if (format1 == null)
+                format1 = "Raw";
             String format2 = (String) FormatBox2.SelectedItem;
+            if (format2 == null)
+                format2 = "Raw";
             Sequence seq1 = new Sequence(Sequence1.Text, format1);
             Sequence seq2 = new Sequence(Sequence2.Text, format2);
             int nMScore = Convert.ToInt32(NaturalMatchScore.Text);

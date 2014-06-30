@@ -14,3 +14,11 @@ C:\Users\Adrian\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases
 C:\Users\Adrian\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.Properties.Resources.resources
 C:\Users\Adrian\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.csproj.GenerateResource.Cache
 C:\Users\Adrian\Projects\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.exe
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.exe
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.pdb
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\bin\Debug\DNAAlignmentToolWithXYBases.exe
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\bin\Debug\DNAAlignmentToolWithXYBases.pdb
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.MainForm.resources
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.Properties.Resources.resources
+C:\Users\Adrian\Documents\GitHub\Current Work\DNAAlignmentToolWithXYBases\DNAAlignmentToolWithXYBases\obj\x86\Debug\DNAAlignmentToolWithXYBases.csproj.GenerateResource.Cache
