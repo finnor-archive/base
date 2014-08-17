@@ -1,0 +1,81 @@
+﻿@model IEnumerable<BankAccountManagement.Models.Account>
+
+@{
+    ViewBag.Title = "Account List";
+}
+
+<h2>Account List</h2>
+
+<p>
+    @Html.ActionLink("Create New Account", "CreateAccount")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Last Name")
+        </th>
+        <th>
+            @Html.DisplayName("First Name")
+        </th>
+        <th>
+            @Html.DisplayName("Address")
+        </th>
+        <th>
+            @Html.DisplayName("City")
+        </th>
+        <th>
+            @Html.DisplayName("State")
+        </th>
+        <th>
+            @Html.DisplayName("Zip")
+        </th>
+        <th>
+            @Html.DisplayName("Balance")
+        </th>
+        <th>
+            @Html.DisplayName("Overdraftable")
+        </th>
+        <th>
+            @Html.DisplayName("Overdraft Penalty")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Last_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.First_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.State)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Zip)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Balance)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Overdraftable)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OverdraftAmount)
+        </td>
+        <td>
+            @Html.ActionLink("Edit Account", "EditAccount", new { id=item.AccountNumber }) |
+            @Html.ActionLink("Details of Account", "DetailsAccount", new { id=item.AccountNumber }) |
+            @Html.ActionLink("Delete Account", "DeleteAccount", new { id=item.AccountNumber })
+        </td>
+    </tr>
+}
+
+</table>

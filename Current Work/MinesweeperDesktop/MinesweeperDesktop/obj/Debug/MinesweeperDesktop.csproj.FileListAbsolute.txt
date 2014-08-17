@@ -1,0 +1,9 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\bin\Debug\MinesweeperDesktop.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\bin\Debug\MinesweeperDesktop.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\bin\Debug\MinesweeperDesktop.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\obj\Debug\MinesweeperDesktop.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\obj\Debug\MinesweeperDesktop.MinesweeperForm.resources
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\obj\Debug\MinesweeperDesktop.Properties.Resources.resources
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\obj\Debug\MinesweeperDesktop.csproj.GenerateResource.Cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\obj\Debug\MinesweeperDesktop.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\MinesweeperDesktop\MinesweeperDesktop\obj\Debug\MinesweeperDesktop.pdb

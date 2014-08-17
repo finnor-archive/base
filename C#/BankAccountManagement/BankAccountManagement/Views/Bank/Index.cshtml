@@ -1,0 +1,77 @@
+﻿@model IEnumerable<BankAccountManagement.Models.Transaction>
+
+@{
+    ViewBag.Title = "Transactions List";
+}
+
+<h2>Transactions List</h2>
+
+<p>
+    @Html.ActionLink("Create New Transaction", "CreateTransaction")
+</p>
+
+<p>
+    @using (Html.BeginForm("Index", "Bank", "name"))
+    {
+        @Html.TextBox("accountNumber")
+        <input type="submit" value="Search" />
+    }
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Account Number")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayName("Other Party")
+        </th>
+        <th>
+            @Html.DisplayName("OP's Account Number")
+        </th>
+        <th>
+            @Html.DisplayName("OP's Routing Number")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayName("Is an Overdraft Fee?")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(item.AccountNumber.ToString(), item.AccountNumber.ToString(), "Bank/DetailsAccount")
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OtherParty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OtherPartyAccount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OtherPartyRoutingNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsOverdraftFee)
+        </td>
+        <td>
+            @Html.ActionLink("Details of Transaction", "Details", new { id=item.TransactionID }) |
+            @Html.ActionLink("Delete Transaction", "Delete", new { id=item.TransactionID })
+        </td>
+    </tr>
+}
+
+</table>

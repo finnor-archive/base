@@ -1,0 +1,76 @@
+﻿@model BankAccountManagement.Models.Transaction
+
+@{
+    ViewBag.Title = "Create Transaction";
+}
+
+<h2>Create Transaction</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Transaction</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.Label("Account Number", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.AccountNumber)
+                @Html.ValidationMessageFor(model => model.AccountNumber)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Amount, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Amount)
+                @Html.ValidationMessageFor(model => model.Amount)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Other Party", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OtherParty)
+                @Html.ValidationMessageFor(model => model.OtherParty)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("OP's Account Number", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OtherPartyAccount)
+                @Html.ValidationMessageFor(model => model.OtherPartyAccount)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("OP's Routing Number", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OtherPartyRoutingNumber)
+                @Html.ValidationMessageFor(model => model.OtherPartyRoutingNumber)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Date, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Date)
+                @Html.ValidationMessageFor(model => model.Date)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to Transaction List", "Index")
+</div>

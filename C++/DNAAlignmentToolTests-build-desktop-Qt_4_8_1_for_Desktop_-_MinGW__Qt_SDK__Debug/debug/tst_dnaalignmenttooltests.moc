@@ -1,0 +1,156 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_dnaalignmenttooltests.cpp'
+**
+** Created: Thu Jul 10 21:48:58 2014
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_dnaalignmenttooltests.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_DNAAlignmentToolTests[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      21,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      23,   22,   22,   22, 0x08,
+      65,   22,   22,   22, 0x08,
+     110,   22,   22,   22, 0x08,
+     150,   22,   22,   22, 0x08,
+     193,   22,   22,   22, 0x08,
+     245,   22,   22,   22, 0x08,
+     298,   22,   22,   22, 0x08,
+     340,   22,   22,   22, 0x08,
+     388,   22,   22,   22, 0x08,
+     447,   22,   22,   22, 0x08,
+     505,   22,   22,   22, 0x08,
+     559,   22,   22,   22, 0x08,
+     631,   22,   22,   22, 0x08,
+     702,   22,   22,   22, 0x08,
+     775,   22,   22,   22, 0x08,
+     835,   22,   22,   22, 0x08,
+     894,   22,   22,   22, 0x08,
+     949,   22,   22,   22, 0x08,
+    1009,   22,   22,   22, 0x08,
+    1068,   22,   22,   22, 0x08,
+    1135,   22,   22,   22, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_DNAAlignmentToolTests[] = {
+    "DNAAlignmentToolTests\0\0"
+    "IsNaturalReturnsTrueForValidNaturalBase()\0"
+    "IsNaturalReturnsFalseForInvalidNaturalBase()\0"
+    "IsExoticReturnsTrueForValidExoticBase()\0"
+    "IsExoticReturnsFalseForInvalidExoticBase()\0"
+    "CompareNucleotidesReturnsTheCorrectScoreForAMatch()\0"
+    "CompareNucleotidesReturnsTheCorrectScoreForAnIndel()\0"
+    "FindBestPathReturnsCorrectPathWhenNoGap()\0"
+    "FindBestPathReturnsCorrectPathWhenThereIsAGap()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWhenAllNatural()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWhenAllExotic()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWhenMixed()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWhenSubsequenceIsIntheFront("
+    ")\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWhenSubsequenceIsIntheBack()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWhenSubsequenceIsIntheMiddle"
+    "()\0"
+    "AlignGlobalSequencePerformsCorrectAlignmentWhenAllNatural()\0"
+    "AlignGlobalSequencePerformsCorrectAlignmentWhenAllExotic()\0"
+    "AlignGlobalSequencePerformsCorrectAlignmentWhenMixed()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWithGapsInFront()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWithGapsInBack()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWithGapsInFrontAndBack()\0"
+    "AlignLocalSequencePerformsCorrectAlignmentWithGapsInMiddle()\0"
+};
+
+void DNAAlignmentToolTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        DNAAlignmentToolTests *_t = static_cast<DNAAlignmentToolTests *>(_o);
+        switch (_id) {
+        case 0: _t->IsNaturalReturnsTrueForValidNaturalBase(); break;
+        case 1: _t->IsNaturalReturnsFalseForInvalidNaturalBase(); break;
+        case 2: _t->IsExoticReturnsTrueForValidExoticBase(); break;
+        case 3: _t->IsExoticReturnsFalseForInvalidExoticBase(); break;
+        case 4: _t->CompareNucleotidesReturnsTheCorrectScoreForAMatch(); break;
+        case 5: _t->CompareNucleotidesReturnsTheCorrectScoreForAnIndel(); break;
+        case 6: _t->FindBestPathReturnsCorrectPathWhenNoGap(); break;
+        case 7: _t->FindBestPathReturnsCorrectPathWhenThereIsAGap(); break;
+        case 8: _t->AlignLocalSequencePerformsCorrectAlignmentWhenAllNatural(); break;
+        case 9: _t->AlignLocalSequencePerformsCorrectAlignmentWhenAllExotic(); break;
+        case 10: _t->AlignLocalSequencePerformsCorrectAlignmentWhenMixed(); break;
+        case 11: _t->AlignLocalSequencePerformsCorrectAlignmentWhenSubsequenceIsIntheFront(); break;
+        case 12: _t->AlignLocalSequencePerformsCorrectAlignmentWhenSubsequenceIsIntheBack(); break;
+        case 13: _t->AlignLocalSequencePerformsCorrectAlignmentWhenSubsequenceIsIntheMiddle(); break;
+        case 14: _t->AlignGlobalSequencePerformsCorrectAlignmentWhenAllNatural(); break;
+        case 15: _t->AlignGlobalSequencePerformsCorrectAlignmentWhenAllExotic(); break;
+        case 16: _t->AlignGlobalSequencePerformsCorrectAlignmentWhenMixed(); break;
+        case 17: _t->AlignLocalSequencePerformsCorrectAlignmentWithGapsInFront(); break;
+        case 18: _t->AlignLocalSequencePerformsCorrectAlignmentWithGapsInBack(); break;
+        case 19: _t->AlignLocalSequencePerformsCorrectAlignmentWithGapsInFrontAndBack(); break;
+        case 20: _t->AlignLocalSequencePerformsCorrectAlignmentWithGapsInMiddle(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData DNAAlignmentToolTests::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject DNAAlignmentToolTests::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_DNAAlignmentToolTests,
+      qt_meta_data_DNAAlignmentToolTests, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &DNAAlignmentToolTests::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *DNAAlignmentToolTests::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *DNAAlignmentToolTests::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_DNAAlignmentToolTests))
+        return static_cast<void*>(const_cast< DNAAlignmentToolTests*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int DNAAlignmentToolTests::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 21)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 21;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE
