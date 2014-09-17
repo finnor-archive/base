@@ -1,0 +1,18 @@
+using System;
+using System.Runtime.Remoting;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting.Channels.Tcp;
+
+public class DashboardServer
+{
+    public static void Main()
+    {
+        TcpChannel m_TcpChan = new TcpChannel(9999);
+        ChannelServices.RegisterChannel(m_TcpChan);
+        RemotingConfiguration.RegisterWellKnownServiceType(
+            Type.GetType("MyRemoteClass,RemoteObject"),
+            "FirstRemote",WellKnownObjectMode.SingleCall);
+        System.Console.WriteLine("Press ENTER to quit");
+        System.Console.ReadLine();
+    }
+}

@@ -1,0 +1,21 @@
+using System;
+using System.Runtime.Remoting;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting.Channels.Tcp;
+
+class BrakeClient
+{
+    public static void Main()
+    {
+	int brakeValue;
+	cout<<"Input a braking value: ";
+	cin>>brakeValue;
+
+        TcpChannel m_TcpChan = new TcpChannel();
+        ChannelServices.RegisterChannel(m_TcpChan);
+        TiresInterface m_RemoteObject = (TiresInterface)
+            Activator.GetObject(typeof(TiresInterface),
+            "tcp://earth:9999/FirstRemote");
+        m_RemoteObject.setBrakes(brakeValue);
+    }
+}

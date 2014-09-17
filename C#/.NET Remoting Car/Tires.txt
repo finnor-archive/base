@@ -1,0 +1,17 @@
+using System;
+using System.Runtime.Remoting;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting.Channels.Tcp;
+
+public class Tires : MarshalByRefObject, TiresInterface
+{
+    public void setBrakes(int brakeValue)
+    {		
+        TcpChannel m_TcpChan = new TcpChannel();
+        ChannelServices.RegisterChannel(m_TcpChan);
+        SensorInterface sensors = (SensorInterface)
+            Activator.GetObject(typeof(SensorInterface),
+            "tcp://earth:9999/FirstRemote");
+        Console.WriteLine(sensors.updateFrictionAndTemp(brakeValue);
+    }
+}

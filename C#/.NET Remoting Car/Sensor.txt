@@ -1,0 +1,22 @@
+using System;
+using System.Runtime.Remoting;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting.Channels.Tcp;
+
+public class Sensors : MarshalByRefObject, SensorInterface
+{
+    public void updateFrictionAndTemp(int brakeValue)
+    {		
+	
+
+
+
+	//client
+        TcpChannel m_TcpChan = new TcpChannel();
+        ChannelServices.RegisterChannel(m_TcpChan);
+        DashboardInterface dash = (DashboardInterface)
+            Activator.GetObject(typeof(DashboardInterface),
+            "tcp://earth:9999/FirstRemote");
+        Console.WriteLine(dash.updateDash(brakeValue, frictionValue, tempValue);
+    }
+}

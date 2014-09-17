@@ -1,0 +1,16 @@
+// -*- c++ -*-
+
+// Tires interface. Includes a getter that is called from the Sensor
+// client and a setter that is called from the Brakes client.
+interface Tires {
+    short getBrakeAmount();
+    void setBrakeAmount(in short amount);
+};
+
+// Dashboard interface. Includes report messages called by the Sensor
+// client to send new friction and temperature values.
+interface Dashboard {
+  void reportFriction(in short friction);
+  void reportBrakeTemperature(in float temp);
+  void reportCarTemperature(in float temp);
+};

@@ -1,0 +1,10 @@
+# Run the Smart Car process indicated by the first command line
+# argument. Can be 'dashboard', 'tire', 'sensor', or 'brakes'.
+export PATH=/netshare/courses/cs553/mico/coss/naming:/netshare/courses/cs553/mico:/netshare/courses/cs553/mico/cpp:/netshare/courses/cs553/mico/idl:$PATH
+export LD_LIBRARY_PATH=/netshare/courses/cs553/mico/libs:$LD_LIBRARY_PATH
+export INCLUDE=/netshare/courses/cs553/mico/include:$INCLUDE
+cp smart_car.ref temp_run
+sed "s/IOR/\.\/$1 -ORBNamingIOR IOR/" temp_run > run_$1
+rm temp_run
+chmod +x run_$1
+./run_$1

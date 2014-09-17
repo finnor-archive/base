@@ -1,0 +1,14 @@
+public interface TiresInterface
+{
+    void setBrakes(int brakeValue);
+}
+
+public interface SensorInterface
+{
+    void updateFrictionAndTemp(int brakeValue);
+}
+
+public interface DashboardInterface
+{
+    void updateDash(int brakeValue, int frictionValue, int tempValue);
+}

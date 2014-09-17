@@ -1,0 +1,56 @@
+////////////////////////////////
+Smart Car CORBA Project
+Peter Roe, Adrian Flannery
+CS 581 -- 10 Oct., 2012
+////////////////////////////////
+
+The Smart Car project includes two shell scripts to assist in starting
+the processes: the 'start_naming_service' and 'run' scripts. The
+'start_naming_service' starts the naming service. The 'run' script can
+start any of the Smart Car processes, depending on which argument is
+given at the command line. It is preferable to start each process in a
+separate terminal window, so that the output of each process in seen
+clearly.
+
+Execution instructions:
+
+1. In a terminal, start the naming service by running the
+   'start_naming_service' script:
+
+    %> ./start_naming service
+    
+2. In a second terminal, start the Dashboard server using the 'run'
+   script:
+
+    %> ./run dashboard
+    
+3. In a third terminal, start the Tire server using the 'run' script:
+
+    %> ./run tire
+    
+4. In a fourth terminal, start the Sensor client using the 'run'
+   script:
+
+    %> ./run sensor
+    
+5. In a fifth terminal, start the Brakes server using the 'run' script:
+
+    %> ./run brakes
+    
+6. The Brakes client will prompt for a brake amount to be entered.
+   Enter a brake amount. After processing the input, the Brake client
+   will prompt for input again.
+
+7. Kill all of the processes to shut down the Smart Car system.
+
+
+Build instructions:
+
+1. In a terminal, run the 'configure_smart_car' script to set up the
+   environment:
+
+    %> ./configure_smart_car
+    
+2. Run 'make':
+
+    %> make

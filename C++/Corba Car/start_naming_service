@@ -1,0 +1,5 @@
+# Starts the naming service using the given IOR reference.
+export PATH=/netshare/courses/cs553/mico/coss/naming:/netshare/courses/cs553/mico:/netshare/courses/cs553/mico/cpp:/netshare/courses/cs553/mico/idl:$PATH
+export LD_LIBRARY_PATH=/netshare/courses/cs553/mico/libs:$LD_LIBRARY_PATH
+export INCLUDE=/netshare/courses/cs553/mico/include:$INCLUDE
+nsd --ior smart_car.ref

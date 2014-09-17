@@ -1,0 +1,131 @@
+<html lang = "EN" xml:lang = "EN" dir = "ltr">
+<head>
+<meta http-equiv="content-type" content="text/xml;
+          charset=utf-8"  />
+
+<title>Book Checker</title>
+<script type = "text/javascript">
+
+function addTeacher(myCourse, myBookTitle, myBookPub, myBookEd, myBookDate, myBookTitle2, myBookPub2, myBookEd2, myBookDate2) {
+  request = new XMLHttpRequest();
+  request.open("GET","bookServer.php?course="+myCourse+"&bookTitle="+myBookTitle+"&bookPub="+myBookPub+"&bookEd="+myBookEd+"&bookDate="+myBookDate+"&bookTitle2="+myBookTitle2+"&bookPub2="+myBookPub2+"&bookEd2="+myBookEd2+"&bookDate2="+myBookDate2);
+  request.onreadystatechange = checkData;
+  request.send(null);
+} // end function
+
+function addStudent(myCourse, myFirst, myLast, myBookTitle, myBookPub, myBookEd, myBookDate, myBookTitle2, myBookPub2, myBookEd2, myBookDate2) {
+  request = new XMLHttpRequest();
+  request.open("GET","studentServer.php?course="+myCourse+"&first="+myFirst+"&last="+myLast+"&bookTitle="+myBookTitle+"&bookPub="+myBookPub+"&bookEd="+myBookEd+"&bookDate="+myBookDate+"&bookTitle2="+myBookTitle2+"&bookPub2="+myBookPub2+"&bookEd2="+myBookEd2+"&bookDate2="+myBookDate2);
+  
+  request.onreadystatechange = checkData2;
+  request.send(null);
+} // end function
+
+function checkData2() {
+
+  if (request.readyState == 4) {
+    //if state is finished
+    if (request.status == 200) {
+      document.getElementById("studentArray").innerHTML=request.responseText;
+    } // end if
+  } // end if
+
+} // end checkData
+    
+function checkData() {
+
+  if (request.readyState == 4) {
+    //if state is finished
+    if (request.status == 200) {
+      // and if attempt was successful
+       alert(request.responseText);
+    } // end if
+  } // end if
+
+} // end checkData
+
+
+
+</script>
+
+</head>
+
+<body>
+<h1>Book Information for Course</h1>
+
+	<!-- Form for teacher to add the correct book information -->
+	<form name="courseBookInfo" method="get" action="another_version.php">
+	<p>
+		Course Name:
+		<input type="text" name="course" />
+		<p>
+		Book Title:
+		<input type="text" name="bookTitle" />
+		Book Publisher:
+		<input type="text" name="bookPub" />
+		Book Edition:
+		<input type="text" name="bookEd" />
+		Book Date:
+		<input type="text" name="bookDate" />
+		<p>
+		Book Title 2:
+		<input type="text" name="bookTitle2" />
+		Book Publisher 2:
+		<input type="text" name="bookPub2" />
+		Book Edition 2:
+		<input type="text" name="bookEd2" />
+		Book Date 2:
+		<input type="text" name="bookDate2" />
+			<button type = "button"
+				onclick = "addTeacher(form.course.value, form.bookTitle.value, form.bookPub.value, form.bookEd.value, form.bookDate.value, form.bookTitle2.value, form.bookPub2.value, form.bookEd2.value, form.bookDate2.value)">
+				Add to database
+   			</button>
+	</form>
+	</p>
+
+
+	
+	
+	
+	
+	
+	
+<h2>Add Student Info and Check Book</h2>
+
+	<!--Form for student to add his book information and check if correct -->
+	<form name="bookInfo" method="get" action="another_version.php">
+	<p>
+		Course Name:
+		<input type="text" name="course" />
+		First Name:
+		<input type="text" name="first" />
+		Last Name:
+		<input type="text" name="last" />
+		<p>
+		Book Title:
+		<input type="text" name="bookTitle" />
+		Book Publisher:
+		<input type="text" name="bookPub" />
+		Book Edition:
+		<input type="integer" name="bookEd" />
+		Book Date:
+		<input type="text" name="bookDate" />
+		<p>
+		Book Title 2:
+		<input type="text" name="bookTitle2" />
+		Book Publisher 2:
+		<input type="text" name="bookPub2" />
+		Book Edition 2:
+		<input type="integer" name="bookEd2" />
+		Book Date 2:
+		<input type="text" name="bookDate2" />
+			<button type = "button"
+				onclick = "addStudent(form.course.value, form.first.value, form.last.value, form.bookTitle.value, form.bookPub.value, form.bookEd.value, form.bookDate.value, form.bookTitle2.value, form.bookPub2.value, form.bookEd2.value, form.bookDate2.value)">
+				Add to database and Check Book
+   			</button>
+	</form>
+	</p>
+	<p>Student Database: <span id="studentArray"></span></p>
+
+</body>
+</html>
