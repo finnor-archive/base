@@ -1,9 +1,9 @@
-﻿<xapCache source="c:\users\adrian\documents\visual studio 2010\Projects\MyApp\MyApp\Bin\Debug\MyApp.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="9/17/2014 1:05:15 AM">
-  <file source="c:\users\adrian\documents\visual studio 2010\Projects\MyApp\MyApp\obj\Debug\MyApp.dll" archivePath="MyApp.dll" lastWriteTime="9/17/2014 1:05:14 AM" />
+﻿<xapCache source="C:\Users\Adrian\Documents\Visual Studio 2010\Projects\MyApp\MyApp\Bin\Debug\MyApp.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="9/17/2014 1:02:06 PM">
+  <file source="C:\Users\Adrian\Documents\Visual Studio 2010\Projects\MyApp\MyApp\obj\Debug\MyApp.dll" archivePath="MyApp.dll" lastWriteTime="9/17/2014 1:02:06 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="8/26/2010 2:17:48 AM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.dll" archivePath="System.ServiceModel.DomainServices.Client.dll" lastWriteTime="1/14/2011 1:13:36 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.Web.dll" archivePath="System.ServiceModel.DomainServices.Client.Web.dll" lastWriteTime="1/14/2011 1:13:32 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Web.Extensions.dll" archivePath="System.ServiceModel.Web.Extensions.dll" lastWriteTime="8/26/2010 2:17:48 AM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="8/26/2010 2:17:48 AM" />
-  <file source="c:\users\adrian\documents\visual studio 2010\Projects\MyApp\MyApp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/16/2014 11:52:49 PM" />
+  <file source="C:\Users\Adrian\Documents\Visual Studio 2010\Projects\MyApp\MyApp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/16/2014 11:52:49 PM" />
 </xapCache>

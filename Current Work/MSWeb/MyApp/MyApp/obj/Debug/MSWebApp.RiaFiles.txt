@@ -1,2 +1,2 @@
-c:\users\adrian\documents\visual studio 2010\Projects\MyApp\MyApp
+C:\Users\Adrian\Documents\Visual Studio 2010\Projects\MyApp\MyApp
 Generated_Code\MyApp.Web.g.cs

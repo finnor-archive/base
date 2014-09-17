@@ -98,6 +98,6 @@
             <Button Height="25" HorizontalAlignment="Left" Margin="200,200,0,0" Name="b88" Padding="0" VerticalAlignment="Top" Width="25" Click="button_Click" Grid.Column="8" Grid.Row="8" MouseRightButtonDown="button_MouseRightButtonUp" Background="Blue" />
         </Grid>
         <sdk:Label Canvas.Left="160" Canvas.Top="-60" Height="50" Name="minesRemaining" Width="50" Content="10" FontWeight="Bold" FontSize="36" FontFamily="Portable User Interface" IsEnabled="False" />
-        <TextBlock Canvas.Left="10" Canvas.Top="-50" Height="41" Loaded="StartTimer" x:Name="myTextBlock" Text="000" Width="51" FontSize="24" FontWeight="Bold" TextAlignment="Center" />
+        <TextBlock Canvas.Left="10" Canvas.Top="-50" Height="41" Loaded="StartTimer" x:Name="myTextBlock" Text="0" Width="51" FontSize="24" FontWeight="Bold" TextAlignment="Center" />
     </Canvas>
 </UserControl>
