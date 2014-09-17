@@ -1,0 +1,5 @@
+Current work:
+	Allow all bordering nonflagged cells be clicked in one motion
+
+Backlog:
+	First click should be an opening
