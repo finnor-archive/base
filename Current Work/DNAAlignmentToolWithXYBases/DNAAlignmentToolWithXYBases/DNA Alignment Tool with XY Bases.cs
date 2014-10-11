@@ -37,7 +37,7 @@ namespace DNAAlignmentToolWithXYBases
             int eGapScore = Convert.ToInt32(ExoticGapScore.Text);
             try
             {
-                SequenceAlignment alignment = new SequenceAlignment(seq1.getSequence(), seq2.getSequence(), nMScore, nMmScore, nGapScore, eMScore, eMmScore, eGapScore);
+                GlobalAligner alignment = new GlobalAligner(seq1.getSequence(), seq2.getSequence(), nMScore, nMmScore, nGapScore, eMScore, eMmScore, eGapScore);
                 String[] outputSeqs = alignment.alignSequences();
                 outSeq1 = new Sequence(outputSeqs[0], seq1.getDescriptor(), "Raw");
                 outSeq2 = new Sequence(outputSeqs[1], seq2.getDescriptor(), "Raw");

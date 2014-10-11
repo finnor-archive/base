@@ -46,8 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalAligner.cs" />
+    <Compile Include="LocalAligner.cs" />
     <Compile Include="Sequence.cs" />
-    <Compile Include="SequenceAlignment.cs" />
+    <Compile Include="SequenceAligner.cs" />
     <Compile Include="DNA Alignment Tool with XY Bases.cs">
       <SubType>Form</SubType>
     </Compile>

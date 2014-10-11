@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNAAlignmentXY", "DNAAlignmentXY\DNAAlignmentXY.csproj", "{49E68DE1-5C9F-4702-A2E0-651C029ABE1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNAAlignmentXY.Web", "DNAAlignmentXY.Web\DNAAlignmentXY.Web.csproj", "{3CB84C1F-80F9-42BF-AC07-45D823B8A1F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49E68DE1-5C9F-4702-A2E0-651C029ABE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E68DE1-5C9F-4702-A2E0-651C029ABE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E68DE1-5C9F-4702-A2E0-651C029ABE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E68DE1-5C9F-4702-A2E0-651C029ABE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB84C1F-80F9-42BF-AC07-45D823B8A1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB84C1F-80F9-42BF-AC07-45D823B8A1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB84C1F-80F9-42BF-AC07-45D823B8A1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB84C1F-80F9-42BF-AC07-45D823B8A1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

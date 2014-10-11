@@ -1,0 +1,4 @@
+c:\users\adrian\documents\visual studio 2010\Projects\DNAAlignmentXY\DNAAlignmentXY.Web\bin\DNAAlignmentXY.Web.dll
+c:\users\adrian\documents\visual studio 2010\Projects\DNAAlignmentXY\DNAAlignmentXY.Web\bin\DNAAlignmentXY.Web.pdb
+c:\users\adrian\documents\visual studio 2010\Projects\DNAAlignmentXY\DNAAlignmentXY.Web\obj\Debug\DNAAlignmentXY.Web.dll
+c:\users\adrian\documents\visual studio 2010\Projects\DNAAlignmentXY\DNAAlignmentXY.Web\obj\Debug\DNAAlignmentXY.Web.pdb
