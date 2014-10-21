@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bronze Medals by Sport</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Adrian Flannery">
+
+    <!-- Bootstrap Twitter Style -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <!-- Olympic Style -->
+    <link href="css/myOlympicStyle.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+     <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">Olympics Data - UAB</a>
+            <ul class="nav">
+              <li><a href="MedalsByCountry.html">Q1</a></li>
+              <li><a href="#">Q2</a></li>
+              <li><a href="SportsByMedalCount.html">Q3</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+          
+      <h3>Bronze Medals by Sport</h3>
+      
+      <div class="chart"></div>
+     
+      <div class="list"></div>  
+             
+    </div>
+    
+
+   <!-- Scripts
+    ================================================== -->
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/d3/d3.js"></script>
+    
+    
+    <!-- My Chart Script  -->
+    <script src="js/myOlympicScripts/SportsByBronzeMedalsChart.js"></script>   
+    <!-- JSONP script -->
+    <script type="text/javascript" src="https://apps.mathbiol.org/sdata/?callback=getJSONOlympicData"></script>
+
+  </body>
+</html>
